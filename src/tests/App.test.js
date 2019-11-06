@@ -2,29 +2,29 @@ import React from "react";
 import Enzyme from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 
-import App from "../Containers/App/App";
+import Herosection from "../Components/Home/Herosection/Herosection";
 import { shallow } from "enzyme";
 Enzyme.configure({ adapter: new Adapter() });
 
-describe("APP", () => {
-  it("renders APP component", () => {
-    const wrapper = shallow(<App />);
-    const h1 = wrapper.find("h1.head");
+describe("Herosection", () => {
+  it("renders Herosection component", () => {
+    const wrapper = shallow(<Herosection />);
+
+    const h1 = wrapper.find("h2.head");
     const text = h1.text();
     console.log(text);
-    expect(text).toBe("hello app");
-    const heading = wrapper.find("h1.heading");
+    expect(text).toBe("Top quality freelancers");
+
+    const heading = wrapper.find("h3.heading");
     const headingText = heading.text();
     console.log(headingText);
-    expect(headingText).toBe("Hello react");
+    expect(headingText).toBe("Incredible Job results");
 
-    const button = wrapper.find("button");
-    const counter = wrapper.find("p").text();
-    expect(counter).toEqual("0");
-    button.simulate("click");
-    button.simulate("click");
-    const counter2 = wrapper.find("p").text();
-    expect(counter2).toEqual("2");
-    console.log(counter2);
+    const paragraph = wrapper.find("p.hrp");
+    const paragraphText = paragraph.text();
+    console.log(paragraphText);
+    expect(paragraphText).toBe(
+      "Upturn your business through the top quality freelancers listed here. 100's of jobs done every week on all categories of web development, Wordpress development, etc"
+    );
   });
 });
