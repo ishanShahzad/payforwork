@@ -154,6 +154,7 @@
   .inp_wrap.wrap_rem span {
     font-size: 12px;
     color: #7c7c7c;
+    text-align: right;
   }
   .forgt_link a {
     color: #7c7c7c;
@@ -208,7 +209,7 @@
       font-weight: 600!important;
   }
   }
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 999px){
   .inp_wrap input, .inp_wrap .login_label {
       width: 100%;
   }
