@@ -31,7 +31,6 @@ function LoginPage() {
   </div>
   <div className="width" > 
       <form method="post" id="login_form" className="container" >
-   
         <div class="inp_wrap">
         <div class="login_label">EMAIL ADDRESS</div>
         <input name="username" type="text" id="username" class="for_form" value="" /> 
