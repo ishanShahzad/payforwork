@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
-import NavBar from '../../../Components/Home/NavBar/NavBar'
-export default class Home extends Component {
-    render() {
-        return (
-            <div>
-                <NavBar/>
-            </div>
-        )
-    }
-}
+import React from "react";
+import HowItWork from "../../../Components/Home/works/works.jsx";
+const Home = () => {
+  return (
+    <React.Fragment>
+      <HowItWork />
+    </React.Fragment>
+  );
+};
+
+export default Home;
