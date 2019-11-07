@@ -1,6 +1,5 @@
 .App {
-  background: black;
-  color: white;
+  text-align: center;
 }
 
 .App-logo {
@@ -20,11 +19,4 @@
 
 .App-link {
   color: #09d3ac;
-}
-
-@media -webkit-full-screen and (min-width: 380px) {
-  .App {
-    color: red;
-    background: #09d3ac;
-  }
 }

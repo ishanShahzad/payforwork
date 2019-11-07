@@ -1,27 +1,14 @@
-import React from "react";
-import "./App.css";
-import Home from "../Pages/Home/Home";
+import React from 'react';
+import '../App/App.css';
+import HowItWorks from '../Pages/HowItWorks/HowItWorks';
 
-class App extends React.Component {
-  state = {
-    counter: 0
-  };
-  handleClick = () => {
-    this.setState({
-      counter: this.state.counter + 1
-    });
-  };
-  render() {
-    return (
-      <div className="App">
-        <Home/>
-        <h1 className="head">hello app</h1>
-        <h1 className="heading">Hello react</h1>
-        <p>{this.state.counter}</p>
-        <button onClick={this.handleClick}></button>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+        <HowItWorks />
+    </div>
+  );
 }
 
 export default App;
+
