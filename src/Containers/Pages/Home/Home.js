@@ -1,11 +1,14 @@
-import React, { Component } from 'react'
-import NavBar from '../../../Components/Home/NavBar/NavBar'
-export default class Home extends Component {
-    render() {
-        return (
-            <div>
-                <NavBar/>
-            </div>
-        )
-    }
+import React, { Component } from "react";
+import Nav from "../../../Components/Home/Nav/NavBar.jsx";
+class Home extends Component {
+  state = {};
+  render() {
+    return (
+      <React.Fragment>
+        <Nav />
+      </React.Fragment>
+    );
+  }
 }
+
+export default Home;
