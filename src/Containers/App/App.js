@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Home from "../Pages/Home/Home";
+import How_it_works from "../Pages/How_it_works/How_it_works";
 
 class App extends React.Component {
   state = {
@@ -13,12 +13,8 @@ class App extends React.Component {
   };
   render() {
     return (
-      <div className="App">
-        <Home/>
-        <h1 className="head">hello app</h1>
-        <h1 className="heading">Hello react</h1>
-        <p>{this.state.counter}</p>
-        <button onClick={this.handleClick}></button>
+      <div >
+       <How_it_works/>
       </div>
     );
   }
