@@ -21,7 +21,7 @@ export default class Herosection extends Component {
 
                 {/* a  ke css be hy */}
 
-                <a className="btn mb-5" href="https://www.payforworks.com">
+                <a className="btn button mb-5" href="https://www.payforworks.com">
                   <span>Browse Freelancers</span>
                 </a>
               </div>
