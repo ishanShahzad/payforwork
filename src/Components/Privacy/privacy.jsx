@@ -14,15 +14,15 @@ class Privacy extends Component {
     <p className="ptwo">Payforworks are committed to protecting and respecting your privacy.</p>
     <p className="pthree">Payforworks.com’s privacy statement together with terms and conditions explains the following:</p>
     <ol>
-        <li>What all the personal data we collect.</li>
-        <li>Anonymous data collected through this website.</li>
-        <li>Links to other websites.</li>
-        <li>Cookies. </li>
-        <li>What do we do with the collected data & disclosure of the personal and employment data. </li>
-        <li>Security.</li>
-        <li>Rights and choices.</li>
-        <li>About changes in the privacy policy.</li>
-        <li>Contact</li>
+        <li className="olfirst1">What all the personal data we collect.</li>
+        <li className="olfirst2">Anonymous data collected through this website.</li>
+        <li className="olfirst3">Links to other websites.</li>
+        <li className="olfirst4">Cookies. </li>
+        <li className="olfirst5">What do we do with the collected data & disclosure of the personal and employment data. </li>
+        <li className="olfirst6">Security.</li>
+        <li className="olfirst7">Rights and choices.</li>
+        <li className="olfirst8">About changes in the privacy policy.</li>
+        <li className="olfirst9">Contact</li>
     </ol>
     <p className="pfour">These statements also explain how personal data are used for the people who belong to Europe as required under the General Data Protection Regulation (GDPR).</p>
             <h2 className="font-weight-normal htesting2">What data do we collect?</h2>
@@ -50,13 +50,13 @@ class Privacy extends Component {
             The personal data we collect will be used to provide users for their requested service. Please find below to see the different scenarios of the usage of the data we collected.
             </p>
             <ol>  
-            <li>Contacting you to inform about the new updates in the privacy policy. </li>
-            <li>Contacting you to inform about the new updates in the terms and conditions. </li>
-            <li>We may contact you to inform about the new service requests.</li>
-            <li>Your data may be used for commercial purposes. </li>
-            <li>We may contact you to inform about the new users who are interested in our services.</li>
-            <li> To conduct regular analysis and research to improve our platform.</li>
-            <li>To provide support as a part of the dispute process.</li>
+            <li className="ol1">Contacting you to inform about the new updates in the privacy policy. </li>
+            <li className="ol2">Contacting you to inform about the new updates in the terms and conditions. </li>
+            <li className="ol3">We may contact you to inform about the new service requests.</li>
+            <li className="ol4">Your data may be used for commercial purposes. </li>
+            <li className="ol5">We may contact you to inform about the new users who are interested in our services.</li>
+            <li className="ol6"> To conduct regular analysis and research to improve our platform.</li>
+            <li className="ol7">To provide support as a part of the dispute process.</li>
             </ol>
             <h2 className="font-weight-normal htesting7">
             Protection of datas
@@ -68,14 +68,14 @@ class Privacy extends Component {
             Rights and Choices
             </h2>
             <ul>
-                <li>You have the right to see your personal data that we hold, and you can change the details anytime. </li>
-                <li>Your name first entered will be locked to change for the unique identity. </li>
-                <li>In case if you need to change your name, please raise a ticket through the platform. All other personal information can be accessed and changed from your “edit profile” page.</li>
-                <li>You have the right to request us to send you a copy of the personal information we keep about you. </li>
-                <li> You have the right to request to stop putting your profile public in our platform, you can contact us to do so.</li>
-                <li>You have the right to put your status as “not available” in case if you are busy. </li>
-                <li>You have the right to unsubscribe from our newsletter we may send you occasionally.</li>
-                <li> You can deactivate your account at any time by raising a ticket.</li>
+                <li className="ul1">You have the right to see your personal data that we hold, and you can change the details anytime. </li>
+                <li className="ul2">Your name first entered will be locked to change for the unique identity. </li>
+                <li className="ul3">In case if you need to change your name, please raise a ticket through the platform. All other personal information can be accessed and changed from your “edit profile” page.</li>
+                <li className="ul4">You have the right to request us to send you a copy of the personal information we keep about you. </li>
+                <li className="ul5"> You have the right to request to stop putting your profile public in our platform, you can contact us to do so.</li>
+                <li className="ul6">You have the right to put your status as “not available” in case if you are busy. </li>
+                <li className="ul7">You have the right to unsubscribe from our newsletter we may send you occasionally.</li>
+                <li className="ul8"> You can deactivate your account at any time by raising a ticket.</li>
             </ul>
             <h2 className="font-weight-normal htesting9">
             Updations in the Privacy policy

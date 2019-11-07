@@ -116,5 +116,127 @@ it("htesting10",()=>{
     const htesting10text = htesting10.text()
     expect(htesting10text).toEqual("Contact")
 })
+it("olfirst1",()=>{
+    const olfirst1 = wrapper.find(".olfirst1")
+    const olfirst1text = olfirst1.text()
+    expect(olfirst1text).toEqual("What all the personal data we collect.")
+})
+it("olfirst2",()=>{
+    const olfirst2 = wrapper.find(".olfirst2")
+    const olfirst2text = olfirst2.text()
+    expect(olfirst2text).toEqual("Anonymous data collected through this website.")
+})
+it("olfirst3",()=>{
+    const olfirst3 = wrapper.find(".olfirst3")
+    const olfirst3text = olfirst3.text()
+    expect(olfirst3text).toEqual("Links to other websites.")
+})
+it("olfirst4",()=>{
+    const olfirst4 = wrapper.find(".olfirst4")
+    const olfirst4text = olfirst4.text()
+    expect(olfirst4text).toEqual("Cookies. ")
+})
+it("olfirst5",()=>{
+    const olfirst5 = wrapper.find(".olfirst5")
+    const olfirst5text = olfirst5.text()
+    expect(olfirst5text).toEqual("What do we do with the collected data & disclosure of the personal and employment data. ")
+})
+it("olfirst6",()=>{
+    const olfirst6 = wrapper.find(".olfirst6")
+    const olfirst6text = olfirst6.text()
+    expect(olfirst6text).toEqual("Security.")
+})
+it("olfirst7",()=>{
+    const olfirst7 = wrapper.find(".olfirst7")
+    const olfirst7text = olfirst7.text()
+    expect(olfirst7text).toEqual("Rights and choices.")
+})
+it("olfirst8",()=>{
+    const olfirst8 = wrapper.find(".olfirst8")
+    const olfirst8text = olfirst8.text()
+    expect(olfirst8text).toEqual("About changes in the privacy policy.")
+})
+it("olfirst9",()=>{
+    const olfirst9 = wrapper.find(".olfirst9")
+    const olfirst9text = olfirst9.text()
+    expect(olfirst9text).toEqual("Contact")
+})
+
+it("ol1",()=>{
+    const ol1 = wrapper.find(".ol1")
+    const ol1text = ol1.text()
+    expect(ol1text).toEqual("Contacting you to inform about the new updates in the privacy policy. ")
+})
+it("ol2",()=>{
+    const ol2 = wrapper.find(".ol2")
+    const ol2text = ol2.text()
+    expect(ol2text).toEqual("Contacting you to inform about the new updates in the terms and conditions. ")
+})
+it("ol3",()=>{
+    const ol3 = wrapper.find(".ol3")
+    const ol3text = ol3.text()
+    expect(ol3text).toEqual("We may contact you to inform about the new service requests.")
+})
+it("ol4",()=>{
+    const ol4 = wrapper.find(".ol4")
+    const ol4text = ol4.text()
+    expect(ol4text).toEqual("Your data may be used for commercial purposes. ")
+})
+it("ol5",()=>{
+    const ol5 = wrapper.find(".ol5")
+    const ol5text = ol5.text()
+    expect(ol5text).toEqual("We may contact you to inform about the new users who are interested in our services.")
+})
+it("ol6",()=>{
+    const ol6 = wrapper.find(".ol6")
+    const ol6text = ol6.text()
+    expect(ol6text).toEqual(" To conduct regular analysis and research to improve our platform.")
+})
+it("ol7",()=>{
+    const ol7 = wrapper.find(".ol7")
+    const ol7text = ol7.text()
+    expect(ol7text).toEqual("To provide support as a part of the dispute process.")
+})
+
+it("ul1",()=>{
+    const ul1 = wrapper.find(".ul1")
+    const ul1text = ul1.text()
+    expect(ul1text).toEqual("You have the right to see your personal data that we hold, and you can change the details anytime. ")
+})
+it("ul2",()=>{
+    const ul2 = wrapper.find(".ul2")
+    const ul2text = ul2.text()
+    expect(ul2text).toEqual("Your name first entered will be locked to change for the unique identity. ")
+})
+it("ul3",()=>{
+    const ul3 = wrapper.find(".ul3")
+    const ul3text = ul3.text()
+    expect(ul3text).toEqual("In case if you need to change your name, please raise a ticket through the platform. All other personal information can be accessed and changed from your “edit profile” page.")
+})
+it("ul4",()=>{
+    const ul4 = wrapper.find(".ul4")
+    const ul4text = ul4.text()
+    expect(ul4text).toEqual("You have the right to request us to send you a copy of the personal information we keep about you. ")
+})
+it("ul5",()=>{
+    const ul5 = wrapper.find(".ul5")
+    const ul5text = ul5.text()
+    expect(ul5text).toEqual(" You have the right to request to stop putting your profile public in our platform, you can contact us to do so.")
+})
+it("ul6",()=>{
+    const ul6 = wrapper.find(".ul6")
+    const ul6text = ul6.text()
+    expect(ul6text).toEqual("You have the right to put your status as “not available” in case if you are busy. ")
+})
+it("ul7",()=>{
+    const ul7 = wrapper.find(".ul7")
+    const ul7text = ul7.text()
+    expect(ul7text).toEqual("You have the right to unsubscribe from our newsletter we may send you occasionally.")
+})
+it("ul8",()=>{
+    const ul8 = wrapper.find(".ul8")
+    const ul8text = ul8.text()
+    expect(ul8text).toEqual(" You can deactivate your account at any time by raising a ticket.")
+})
 })
 
