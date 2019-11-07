@@ -15,10 +15,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Home/>
-        <h1 className="head">hello app</h1>
-        <h1 className="heading">Hello react</h1>
-        <p>{this.state.counter}</p>
-        <button onClick={this.handleClick}></button>
+       
       </div>
     );
   }
