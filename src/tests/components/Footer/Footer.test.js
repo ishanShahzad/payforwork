@@ -4,12 +4,13 @@ import Adapter from "enzyme-adapter-react-16";
 
 import App from "../Containers/App/App";
 import { shallow } from "enzyme";
+import Footer from "../../../Components/Home/Footer/Footer";
 Enzyme.configure({ adapter: new Adapter() });
 
 describe("APP", () => {
   it("renders APP component", () => {
     const wrapper = shallow(<App />);
-    const h3 = wrapper.find("Footer");
+    const h3 = wrapper.find(<Footer/>);
     const text = h3.text();
     console.log(text);
     expect(text).toBe("hello app");
