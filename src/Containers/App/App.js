@@ -1,17 +1,8 @@
 import React from "react";
-import Home from "../Pages/Home/Home";
-// import "./App.css";
-
-class App extends React.Component {
-  state = {};
-
-  render() {
-    return (
-      <div className="App">
-        <Home />
-      </div>
-    );
-  }
+import "./App.css";
+import SearchBar from '../../Components/searchbar/serchbar.jsx'
+function App() {
+  return <div className="App"><SearchBar /></div>;
 }
 
 export default App;

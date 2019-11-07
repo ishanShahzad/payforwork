@@ -1,0 +1,24 @@
+.umer[type="text"]::placeholder{
+    font-family: cursive;
+    font-size: 12px;
+}
+.umer{
+    border: none !important;
+}
+.do {
+    height:40px;
+    width: 130px;
+    background-color: #13d272;
+    font-size: 15px;
+}
+input:focus{
+    box-shadow: none !important;
+}
+.ka{
+    width: 90% !important;
+}
+.kal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
