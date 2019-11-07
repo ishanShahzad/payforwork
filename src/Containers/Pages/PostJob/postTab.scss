@@ -1,0 +1,52 @@
+@media only screen and (max-width: 993px){
+    .main{
+        position: relative;
+        height: 1000px;
+        width: 100%;
+        background-color: lightgray;
+        
+    }
+    .post-form{
+        position: absolute;
+        background-color: #fff;
+        height: 100%;
+        width: 80%;
+        left: 10%;
+        top: 10%;
+    }
+    .h1{
+        position: absolute;
+        left: 35%;
+        top: 5%;
+        margin-left: 45px;
+    }
+    .main-para{
+        position: absolute;
+        font-family: sans-serif, Arial;
+        text-align: center;
+        left: 15%;
+        top: 13%;
+    }
+    .aside{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        height: 400px;
+        width: 100%;
+        list-style: none;
+    }
+    
+    .form{
+        position: absolute;
+        left: 5%;
+        height: 100%;
+        width: 50%;
+        top: 60%;
+    }
+    .label-head{
+        position: absolute;
+        border-bottom: 2px solid;
+        top: 0%;
+    }
+    
+}
