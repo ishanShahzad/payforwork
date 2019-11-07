@@ -1,0 +1,90 @@
+.grow-your-business {
+  img{
+    height: 60px;
+  }
+  //web
+  .web-card:hover .web-developers {
+      display: none;
+  }
+  .web-hover {
+    display: none;
+  }
+  .web-card:hover .web-hover {
+    display: block;
+  }
+  //desginers
+  .designers-card:hover .designers {
+    display: none;
+}
+.designers-hover {
+  display: none;
+}
+.designers-card:hover .designers-hover {
+  display: block;
+}
+//marketing
+.marketing-card:hover .marketing {
+  display: none;
+}
+.marketing-hover {
+display: none;
+}
+.marketing-card:hover .marketing-hover {
+display: block;
+}
+//writers
+.writers-card:hover .writers {
+  display: none;
+}
+.writers-hover {
+display: none;
+}
+.writers-card:hover .writers-hover {
+display: block;
+}
+//admin assistants
+.admin-assistants-card:hover .admin-assistants {
+  display: none;
+}
+.admin-assistants-hover {
+display: none;
+}
+.admin-assistants-card:hover .admin-assistants-hover {
+display: block;
+}
+//social media experts
+.social-media-experts-card:hover .social-media-experts {
+  display: none;
+}
+.social-media-experts-hover {
+display: none;
+}
+.social-media-experts-card:hover .social-media-experts-hover {
+display: block;
+}
+//customer support 
+.customer-support-card:hover .customer-support {
+  display: none;
+}
+.customer-support-hover {
+display: none;
+}
+.customer-support-card:hover .customer-support-hover {
+display: block;
+}
+//accountants 
+.accountants-card:hover .accountants {
+  display: none;
+}
+.accountants-hover {
+display: none;
+}
+.accountants-card:hover .accountants-hover {
+display: block;
+}
+//card hover
+  .card:hover {
+    -webkit-box-shadow: 0 0 30px 0.1px #416340;
+box-shadow: 0 0 30px 0.1px #416340;
+  }
+}
