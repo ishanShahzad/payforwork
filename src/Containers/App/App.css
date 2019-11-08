@@ -1,8 +1,7 @@
 .App {
-  background: black;
-  color: white;
+  box-sizing: border-box;
 }
-
+/* 
 .App-logo {
   height: 40vmin;
 }
@@ -27,4 +26,4 @@
     color: red;
     background: #09d3ac;
   }
-}
+} */

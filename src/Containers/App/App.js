@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Home from "../Pages/Home/Home";
 
 class App extends React.Component {
   state = {
@@ -12,11 +13,14 @@ class App extends React.Component {
   };
   render() {
     return (
+      // <div className="App">
+      //   <h1 className="head">hello app</h1>
+      //   <h1 className="heading">Hello react</h1>
+      //   <p>{this.state.counter}</p>
+      //   <button onClick={this.handleClick}></button>
+      // </div>
       <div className="App">
-        <h1 className="head">hello app</h1>
-        <h1 className="heading">Hello react</h1>
-        <p>{this.state.counter}</p>
-        <button onClick={this.handleClick}></button>
+        <Home />
       </div>
     );
   }

@@ -1,0 +1,10 @@
+.bg1 {
+  background-image: url(./images/bg.png);
+  background-size: 100% 85%;
+}
+.bg1 img {
+  width: 100%;
+}
+.btn {
+  border-radius: 25px;
+}
