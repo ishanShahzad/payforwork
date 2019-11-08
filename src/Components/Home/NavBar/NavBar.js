@@ -6,7 +6,7 @@ class NavBar extends Component {
     return (
       <React.Fragment>
         <nav className="navbar navbar-expand-md navbar-light bg-white">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img
               src="https://www.payforworks.com/images/logo_dark.png"
               alt="LOGO IMG"
@@ -28,14 +28,14 @@ class NavBar extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto mr-5 ">
               <li className="nav-item mt-2">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   FIND JOBS
                 </a>
               </li>
               <li className=" dropdown dis-none mt-3">
                 <a
                   className="dropdown-toggle "
-                  href="#"
+                  href="/"
                   id="navbarDropdown"
                   role="button"
                   data-toggle="dropdown"
@@ -45,7 +45,7 @@ class NavBar extends Component {
                   FIND
                 </a>
                 <div className="dropdown-menu " aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item  row mr-0" href="#">
+                  <a className="dropdown-item  row mr-0" href="/">
                     <img
                       src="https://www.payforworks.com/images/dd-jobs.png"
                       alt="Payforworks-jobs-icon"
@@ -54,7 +54,7 @@ class NavBar extends Component {
                     JOBS
                   </a>
                   <div className="dropdown-divider"></div>
-                  <a className="dropdown-item row mr-0" href="#">
+                  <a className="dropdown-item row mr-0" href="/">
                     <img
                       src="https://www.payforworks.com/images/dd-fls.png"
                       alt="Payforworks-freelancer-icon"
@@ -65,23 +65,23 @@ class NavBar extends Component {
                 </div>
               </li>
               <li className="nav-item mt-2">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   BROWSER FREELANCERS
                 </a>
               </li>
               <li className="nav-item mt-2">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   HOW IT WORKS
                 </a>
               </li>
               <li className="nav-item"></li>
               <li className="nav-item mt-2">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   SIGN UP
                 </a>
               </li>
               <li className="nav-item mt-2">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   LOGIN
                 </a>
               </li>
