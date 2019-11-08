@@ -4,7 +4,7 @@ export default class Herosection extends Component {
   render() {
     return (
       <div>
-        <div className="container-fluid">
+        <div className="container-fluid mt-5">
           <div className="row">
             <div className="col-md-12 col-lg-6 hs1_conte mt-5 ">
               <div
@@ -21,7 +21,7 @@ export default class Herosection extends Component {
 
                 {/* a  ke css be hy */}
 
-                <a className="btn mb-5" href="https://www.payforworks.com">
+                <a className="btn button mb-5" href="https://www.payforworks.com">
                   <span>Browse Freelancers</span>
                 </a>
               </div>
