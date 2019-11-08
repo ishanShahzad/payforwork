@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "../HowItWorks/HowItWorks.css";
-import PayInvoice from "../../../Component/PayInvoice/PayInvoice";
+import PayInvoice from "../../../Components/PayInvoice/PayInvoice";
 
 export default class HowItWorks extends Component {
     render() {

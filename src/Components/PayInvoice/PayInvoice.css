@@ -3,10 +3,8 @@
     margin-bottom: 40px;
 }}
 
-@media only screen and (max-width: 425px){
-    .hw_img .hwinv{
-        width: 60px;
-    }
+.hw_img .hwinv{
+    width: 100%;
 }
 
 .hw_tabcont .row {
@@ -14,11 +12,8 @@
 }
 
 .andot.aos-animate span {
-    -webkit-animation-name: andotspa;
     animation-name: andotspa;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
 
@@ -31,11 +26,8 @@
     margin-right: 5px;
 }
 .andot.aos-animate::after {
-    -webkit-animation-name: andotaft;
     animation-name: andotaft;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
 .andot::after {
@@ -50,11 +42,8 @@
 
 
 .andot.aos-animate::before {
-    -webkit-animation-name: andotbef;
     animation-name: andotbef;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
 .andot::before {
@@ -166,4 +155,10 @@ animate {
     max-width: 500px;
     margin: auto;
     margin-top: 25px;
+}
+
+@media only screen and (max-width: 500px){
+    .only_mob .hwinv{
+        width: 100%;
+    }
 }
