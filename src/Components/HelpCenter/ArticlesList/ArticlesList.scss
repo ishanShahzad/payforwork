@@ -1,0 +1,35 @@
+.help-center-article-list {
+    padding: 20px 0 50px;
+      .article-title{
+        padding-left: 40px;
+        font-weight: 400;
+        font-size: 30px;
+        color: #13d272;
+      }
+    .article-list-items{
+      list-style: none;
+      background: #13d272;
+      color: red;
+      margin-top: 25px;
+      .article-list-item {
+        padding: 10px 0;
+        display: block !important;
+      }
+      .article-list-item-link{
+        background: red;
+        display: block !important;
+        // color: #13d272;
+        font-size: 16px;
+        text-decoration: none;
+          &:focus{
+          color: #13d272;
+          text-decoration: none;
+        }
+      }
+      
+    }
+  }
+
+
+
+
