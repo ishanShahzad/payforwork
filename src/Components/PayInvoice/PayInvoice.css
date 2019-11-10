@@ -1,14 +1,43 @@
+.hw_tabcont p {
+    font-family: nunito sans,sans-serif;
+    letter-spacing: .3px;
+    line-height: 25px;
+    font-size: 15px;
+    color: #333333;
+}
 @media only screen and (max-width: 992px)
 {.hw_tabcont .row {
     margin-bottom: 40px;
 }}
 
 .hw_img .hwinv{
-    width: 100%;
+    width: 75%;
 }
 
 .hw_tabcont .row {
     margin-bottom: 100px;
+}
+/* @media only screen and (min-width: 1020px){
+    .hw_tabcont{
+        margin: 180px 200px;
+    }
+} */
+@media only screen and (min-width: 992px){
+    .hw_tabcont{
+        margin: 80px 95px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .hw_tabcont{
+        margin: 80px 50px;
+    }
+}
+
+@media only screen and (max-width: 769px){
+    .hw_tabcont{
+        margin: 80px 60px;
+    }
 }
 
 .andot.aos-animate span {
@@ -55,16 +84,18 @@
     border-radius: 10px;
     margin-right: 5px;
 }
+
+.hw_mtitle {
+    font-size: 40px;
+    color: #112445;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
 @media only screen and (max-width: 768px)
 {.hw_mtitle {
     font-size: 30px;
 }}
-.hw_mtitle {
-    font-size: 40px;
-    color: #112445;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
 @media only screen and (max-width: 768px)
 {.only_mob {
     display: block;
@@ -97,9 +128,9 @@
     font-size: 20px;
 }}
 
-.hw_tabcont h3 {
+.hw_tabcont h4 {
     color: #112445;
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 30px;
 }
 @media only screen and (max-width: 992px)
@@ -157,7 +188,7 @@ animate {
     margin-top: 25px;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 590px){
     .only_mob .hwinv{
         width: 100%;
     }
