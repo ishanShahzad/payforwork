@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import Home from "../Pages/Home/Home";
-import Footer from "../Pages/Home/MainFooter/main-Footer";
 
+// import Footer from "../Pages/Home/MainFooter/main-Footer";
+import Footer from "../../Components/Footer/Footer";
 class App extends React.Component {
   state = {
     counter: 0
@@ -15,8 +15,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-    
-        < Footer />
+
+        <Footer />
       </div>
     );
   }
