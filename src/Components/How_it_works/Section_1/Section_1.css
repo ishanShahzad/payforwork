@@ -16,7 +16,7 @@
 }
 * {
     box-sizing: border-box;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif !important;
     outline: none;
 }
   
