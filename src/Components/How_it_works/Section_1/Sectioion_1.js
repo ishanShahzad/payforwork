@@ -1,15 +1,7 @@
 import React, { Component } from 'react'
 import "./Section_1.css"
-import $ from 'jquery';
 
-
-// $('#myTab li').on('click', function (e) {
-//   e.preventDefault()
-//   $(this).tab('show')
-// })
-// $('#myTab li:first-child a').tab('show') 
-// $('#myTab li:last-child a').tab('show') 
-export default class Section_1 extends Component {
+export default class SectionOne extends Component {
    render() {
     
    
@@ -25,17 +17,18 @@ export default class Section_1 extends Component {
          <div className="container">
            <div class="borftab">
            <div class="borftab_lk">
-               <ul class="nav nav-tabs switch_type" id="myTab" role="tablist" > 
+               <ul class="nav nav-tabs switch_type" 
+               id="myTab" role="tablist" > 
                  <li class=" nav-item">
                    <a className=" nav-link active"
                     data-toggle="tab" 
-                    href="#" data-val="client"
+                    href="/" data-val="client"
                     role="tab" aria-controls="client"
                      aria-selected="true">As a buyer</a>
                    </li> 
                    <li className="nav-item">
                      <a className="nav-link"
-                     data-toggle="tab" href="#" 
+                     data-toggle="tab" href="/" 
                      data-val="freelancer"
                      role="tab" aria-controls="freelancer"
                       aria-selected="false">As a freelancer</a>

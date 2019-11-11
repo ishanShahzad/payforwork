@@ -2,6 +2,7 @@ import React from "react";
 import Enzyme from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 
+
 import { shallow } from "enzyme";
 import Section_1 from "../../../../Components/How_it_works/Section_1/Sectioion_1";
 

@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import Section_1 from '../../../Components/How_it_works/Section_1/Sectioion_1'
+import SectionOne from '../../../Components/How_it_works/Section_1/Sectioion_1'
 
-export default class How_it_works extends Component {
+export default class HowItWorks extends Component {
   render() {
     return (
         <React.Fragment>
-<Section_1/>
+<SectionOne/>
         </React.Fragment>
     
           

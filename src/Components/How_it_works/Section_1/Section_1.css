@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap');
 .hiw_1 {
     padding: 100px 0 70px;
     text-align: center;
@@ -11,6 +11,14 @@
     font-size: 42px;
     margin-bottom: 15px;
   }
+  p {
+    margin: 0 0 10px;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    outline: none;
+}
   
   .borftab .nav-tabs >li >a.active, 
   .borftab .nav-tabs >li >a.active:hover,
@@ -118,19 +126,11 @@
       padding: 60px 0 40px;
   }
   }
-  @media only screen and (max-width: 400px)
-  {.hiw_1 h1 {
-      font-size: 32px;
-  }}
-  @media only screen and (max-width: 400px)
-  {.borftab .nav-tabs>li>a {
-      padding: 15px 12px;
-      font-size: 13px!important;
-      width: 125px;
-  }
-  }
+  
+
+  
   @media screen and (max-width: 600px)
-  {.borftab .nav-tabs>li>a {
+  {.borftab .borftab_lk .nav-tabs>li>a {
       padding: 15px 20px;
       font-size: 14px!important;
       width: 160px;
@@ -159,3 +159,14 @@
   {.container {
       width: 1200px !important;
   }} */
+
+  @media only screen and (max-width: 400px)
+  {.hiw_1 h1 {
+      font-size: 32px;
+  }}
+  @media only screen and (max-width: 400px)
+  {.borftab .borftab_lk .nav-tabs>li>a {
+    padding: 15px 12px;
+    font-size: 13px!important;
+    width: 125px;
+  }}

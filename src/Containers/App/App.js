@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import How_it_works from "../Pages/How_it_works/How_it_works";
+import HowItWorks from "../Pages/How_it_works/How_it_works";
 
 class App extends React.Component {
   state = {
@@ -14,7 +14,7 @@ class App extends React.Component {
   render() {
     return (
       <div >
-       <How_it_works/>
+       <HowItWorks/>
       </div>
     );
   }
