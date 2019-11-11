@@ -23,10 +23,10 @@ class HowItWorks extends Component {
                 </div>
                 <h1 className="digit digitOne">1</h1>
               </div>
-              <div className="para3 paraThree">
+              <p className="para3 paraThree">
                 Hassle free process allows you to post a job very quickly which
                 reaches to the experts
-              </div>
+              </p>
             </div>
             <div className="items">
               <div className="heading2">
@@ -64,13 +64,14 @@ class HowItWorks extends Component {
             </div>
           </div>
           <div className="bottomOne">
-            <div>
+            <div className="protected">
               <img
                 src="https://www.payforworks.com/images/hiwf.png"
                 alt="img"
+                className="protectedImg"
                 width="20%"
               />
-              <p className="para">YOUR MONEY IS ALWAYS PROTECTED</p>
+              <p className="para4">YOUR MONEY IS ALWAYS PROTECTED</p>
             </div>
           </div>
         </div>
