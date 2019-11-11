@@ -219,3 +219,8 @@
     bottom: -30px !important;
   }
 }
+@media screen and (max-width: 600px) {
+  .hs1_conte {
+    margin-left: 10px;
+  }
+}
