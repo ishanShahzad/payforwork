@@ -1,0 +1,7 @@
+img {
+    height: 70%;
+    width: 100%;
+  }
+  .adeel::after{
+      content:" -->"
+  }
