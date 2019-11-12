@@ -1,23 +1,27 @@
 import React from "react";
 import "./App.css";
-import HowItWorks from "../Pages/How_it_works/How_it_works";
-
-class App extends React.Component {
-  state = {
-    counter: 0
-  };
-  handleClick = () => {
-    this.setState({
-      counter: this.state.counter + 1
-    });
-  };
+import Home from "../Pages/Home/Home";
+export default class App extends React.Component {
   render() {
     return (
-      <div >
-       <HowItWorks/>
-      </div>
+      <React.Fragment>
+        <Home />
+      </React.Fragment>
     );
   }
 }
 
-export default App;
+// export default App;
+
+// const add = (x, y) => {
+//   return x + y;
+// };
+
+// const addListItem = (item, list) => {
+//   list.push(item);
+//   return list;
+// };
+// module.exports = {
+//   add,
+//   addListItem
+// };

@@ -1,30 +1,8 @@
-/* .App {
-  background: black;
-  color: white;
+@import url("https://fonts.googleapis.com/css?family=Anton|Nunito|Nunito+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: nunito sans, sans-serif;
+  box-sizing: border-box;
+  outline: none;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-}
-
-@media -webkit-full-screen and (min-width: 380px) {
-  .App {
-    color: red;
-    background: #09d3ac;
-  }
-} */
