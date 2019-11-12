@@ -4,11 +4,11 @@ import './LoginPage.css';
 function LoginPage() {
   return (
     <div className="first">
-      <div class="main_bg container"> 
+      <div class="main_bg"> 
     <div class="top_bg"></div>
     <div className="App login-section">
-      <p className="text-center heading p" >Log in</p>
-      <p className="text-center question p" >Don't have an account ? <a href="/" className="sign-link" >SIGN UP</a>
+      <p className="text-center heading" >Log in</p>
+      <p className="text-center" >Don't have an account ? <a href="/" className="sign-link" >SIGN UP</a>
       </p>
     </div>
 <div class="forgot">
@@ -21,8 +21,8 @@ function LoginPage() {
       </a> 
     </div>
     <div class="login_li">
-      <a href="/" class="" id="googleSignIn"> 
-       <button class="lw_fb_btn glogin ml-1">
+      <a href="/" class="" id="googleSignIn" > 
+       <button class="lw_fb_btn glogin ml-md-1">
          <i class="fa fa-google"></i> <span>Continue with Google</span>
        </button>
       </a>
@@ -51,7 +51,8 @@ function LoginPage() {
                 <span class="forgt_link" style={{"float":"right"}}>  <a href="/" id="fgt_rst_pass">Forgot password?</a></span> </div>
                  </div>
               <div class="inp_wrap wrap_lgn"> <input name="login" type="submit" class="for_button login_btn" value="LOG IN"/>
-          </div> </form>
+          </div> 
+          </form>
           
           </div>
           
