@@ -239,4 +239,3 @@ it("ul8",()=>{
     expect(ul8text).toEqual(" You can deactivate your account at any time by raising a ticket.")
 })
 })
-
