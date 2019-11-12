@@ -2,6 +2,7 @@ import React from "react";
 import Home from "../Pages/Home/Home";
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
+import Signup from "../../Components/Home/Signup/Signup";
 
 class App extends React.Component {
   state = {};
@@ -11,7 +12,7 @@ class App extends React.Component {
       <div className="App">
         <Switch>
           <Route path="/" exact component={Home} />
-          {/* <Route path="/signup"  component={} /> */}
+          <Route path="/signup" component={Signup} />
 
 
         </Switch>
