@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-// import "./NavBar.css";
+import "./NavBar.css";
 class NavBar extends Component {
   state = {};
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-expand-md navbar-light bg-white">
+        <nav className="navbar navbar-expand-md navbar-light bg-white sticky-top">
           <a className="navbar-brand" href="/">
             <img
               src="https://www.payforworks.com/images/logo_dark.png"
