@@ -11,7 +11,7 @@ export default class Home extends Component {
         <NavBar />
         < ExpertSection />
         <GrowYourBusiness />
-        {/* < Herosection /> */}
+        < Herosection />
         {/* <HowItWorks /> */}
         {/* <Footer /> */}
       </div>
