@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap');
 .hw_tabcont p {
     font-family: nunito sans,sans-serif;
     letter-spacing: .3px;
@@ -11,20 +12,31 @@
 }}
 
 .hw_img .hwinv{
-    width: 75%;
+    width: 77%;
+}
+.only_lg{
+    padding-left: 0px;
 }
 
 .hw_tabcont .row {
     margin-bottom: 100px;
 }
-/* @media only screen and (min-width: 1020px){
-    .hw_tabcont{
-        margin: 180px 200px;
+@media only screen and (max-width: 1300px){
+    .hw_img .hwinv{
+        width: 80%;
     }
-} */
+}
+@media only screen and (max-width: 1200px){
+    .hw_img .hwinv{
+        width: 85%;
+    }
+}
 @media only screen and (min-width: 992px){
     .hw_tabcont{
-        margin: 80px 95px;
+        margin: 70px 95px;
+    }
+    .lg_mob .hwinv{
+        width: 100%;
     }
 }
 
@@ -32,11 +44,17 @@
     .hw_tabcont{
         margin: 80px 50px;
     }
+    .lg_mob .hwinv{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 769px){
     .hw_tabcont{
         margin: 80px 60px;
+    }
+    .hw_img .hwinv{
+        width: 100%;
     }
 }
 
@@ -88,13 +106,15 @@
 .hw_mtitle {
     font-size: 40px;
     color: #112445;
-    font-weight: 600;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
 }
 @media only screen and (max-width: 768px)
 {.hw_mtitle {
     font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
 }}
 @media only screen and (max-width: 768px)
 {.only_mob {
