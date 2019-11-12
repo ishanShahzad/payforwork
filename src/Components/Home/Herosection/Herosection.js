@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Herosection.css";
+// import "./Herosection.css";
 export default class Herosection extends Component {
   render() {
     return (
