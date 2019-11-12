@@ -11,7 +11,7 @@ export default function ExpertSection() {
                 <div className="">
                     <form className="form-inline">
                         <input type="text" placeholder="What do you need to get done?" className="form-control none " />
-                        <button type="submit" style={{}} className="btn  px-4 butt">FIND</button>
+                        <button type="submit" style={{}} className="btn  butt">FIND</button>
                     </form>
                 </div>
 

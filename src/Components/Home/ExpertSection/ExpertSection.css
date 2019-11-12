@@ -27,18 +27,25 @@
   }
   
   .none{
-    width: 40% !important ;
-    height:9.4vh!important ;
+    width: 38.5% !important ;
+    height:9.8vh!important ;
     border-radius: 0;
     font-style: italic;
+    font-size: .88rem;
+    padding-left: 20px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     /* padding: 30px 0 30px 10px; */
   }
+  .none::placeholder{
+    margin-left: 30px !important;
+  }
   .butt{ 
-    height: 9.4vh;
+    height: 9.8vh;
+    width:9.3%;
     border-radius: 0; 
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
     background-color: #13D272;
     color: #ffff;
     border-top-right-radius: 5px;
@@ -80,6 +87,12 @@
     @media only screen and (max-width: 768px){
     .none input[type=text] {
         max-width: calc(100% - 135px);
+
+    }
+    .butt{ 
+    width: 20%;
+      border-radius: 0; 
+      font-size: 1.4rem
     }
     }
    @media screen and (max-width: 760px){
@@ -110,7 +123,8 @@
     
   }
   .butt{
-    font-size: 18px;
+    font-size: 18px !important;
+    width: 20% !important;
   }
   }
     
@@ -119,10 +133,10 @@
       background-position: center left 60%!important;
   }
   .none{
-    width: 65% !important;
-    height: 6vh !important;
+    width: 80% !important;
+    height: 8vh !important;
     font-size: 14px;
-   padding-left: 2px !important;
+   padding-left: 5px !important;
   
   }
   .none::placeholder{
@@ -130,14 +144,17 @@
   
   }
   .butt{
-    height: 6vh !important;
+    height: 8vh !important;
     font-size: 16px;
+    width: 20%;
   }
   .head{
-    font-size: 22px;
+    font-size: 26px !important;
+    margin-bottom: 2px !important;
   }
   .para{
-    font-size: 14px;
+    font-size: 16px !important;
+    margin-top: 0 !important;
   
   }
   
