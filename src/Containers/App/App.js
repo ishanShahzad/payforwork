@@ -15,3 +15,16 @@ class App extends React.Component {
 }
 
 export default App;
+
+// const add = (x, y) => {
+//   return x + y;
+// };
+
+// const addListItem = (item, list) => {
+//   list.push(item);
+//   return list;
+// };
+// module.exports = {
+//   add,
+//   addListItem
+// };

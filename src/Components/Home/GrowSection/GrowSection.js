@@ -11,7 +11,7 @@ export default function GrowSection() {
 
                 </div>
                 <div className=" div2 col-md-6">
-                    <h2>Grow twice as fast</h2>
+                    <h2 className="headingafter">Grow twice as fast</h2>
                     <h3>Loved by small business and individuals across the globe</h3>
                     <button className="btn btn1 mb-sm-5  mt-5">START AS A FREELANCER</button>
                 </div>

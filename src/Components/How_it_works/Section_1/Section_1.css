@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap');
+.hiw_1 {
+    padding: 100px 0 70px;
+    text-align: center;
+    color: #757575;
+    font-size: 16px;
+  }
+  .hiw_1 h1 {
+    color: #112445;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 15px;
+  }
+  p {
+    margin: 0 0 10px;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    outline: none;
+}
+  
+  .borftab .nav-tabs >li >a.active, 
+  .borftab .nav-tabs >li >a.active:hover,
+   .borftab .nav-tabs >li >a.active:focus {
+    color: #fff!important;
+    background-color: #0ee0e2!important;
+    font-size: 16px;
+    text-transform: none;
+    color: #000;
+    font-weight: 700;
+  }
+  .borftab .nav.nav-tabs {
+    background: 0 0;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .borftab_lk {
+    text-align: center;
+  }
+  .nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+  }
+  .nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+  }
+  .borftab .nav.nav-tabs {
+    background: 0 0;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  
+  .nav-tabs {
+    border-bottom: none;
+    background: #f5f4f4;
+  }
+  .borftab .borftab_lk .nav-tabs>li>a {
+    margin-right: 0;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: none;
+    padding: 15px 45px;
+    color: #4a4a4a;
+    background: #f3f3f3;
+    font-weight: 700;
+    width: 230px;
+    transition: all .2s ease-in-out;
+  }
+  .nav-tabs {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+  .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+  }
+  a, button {
+    outline: none!important;
+  }
+  a, a:hover, a:active, a:focus {
+    outline: none !important;
+  }
+  a {
+    color: #2ac884;
+    text-decoration: none !important;
+  }
+  a {
+    color: #428bca;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 600px)
+  {.borftab .nav-tabs>li>a {
+      padding: 15px 20px;
+      font-size: 14px!important;
+      width: 160px;
+  }
+  .nav-tabs {
+    border-bottom: none
+  }
+  }
+  
+  
+  .tab-content {
+    padding: 50px 25px;
+  }
+  /* @media only screen and (max-width: 768px)
+  {.container {
+      width: 90%;
+  }} */
+  @media screen and (max-width: 600px)
+  {.hiw_1 {
+      padding: 60px 0 40px;
+  }
+  }
+  
+
+  
+  @media screen and (max-width: 600px)
+  {.borftab .borftab_lk .nav-tabs>li>a {
+      padding: 15px 20px;
+      font-size: 14px!important;
+      width: 160px;
+  }}
+  
+  
+  
+  @media (min-width: 1200px)
+  {.container {
+      max-width: 1300px;
+  }}
+  /* @media (min-width: 992px)
+  {.container {
+      max-width: 960px;
+  }} */
+  /* @media (min-width: 768px)
+  {.container {
+      max-width: 720px;
+  }}
+  @media (min-width: 576px)
+  {.container {
+      max-width: 540px;
+  }} */
+  
+  /* @media screen and (max-width: 1300px) and (min-width: 1220px)
+  {.container {
+      width: 1200px !important;
+  }} */
+
+  @media only screen and (max-width: 400px)
+  {.hiw_1 h1 {
+      font-size: 32px;
+  }}
+  @media only screen and (max-width: 400px)
+  {.borftab .borftab_lk .nav-tabs>li>a {
+    padding: 15px 12px;
+    font-size: 13px!important;
+    width: 125px;
+  }}

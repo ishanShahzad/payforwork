@@ -26,13 +26,13 @@
     margin-top: 5vh;
   
   }
-  h2{
+  h2.headingafter{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 40px;
     padding: 140px 0px 0px 0px;
   }
   
-  h2::after {
+  .headingafter::after {
     content: "";
     display: block;
     width: 20%;
