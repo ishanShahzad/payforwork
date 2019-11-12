@@ -3,6 +3,7 @@ import GrowYourBusiness from '../../../Components/Home/GrowYourBusiness/GrowYour
 import NavBar from '../../../Components/Home/NavBar/NavBar';
 import ExpertSection from '../../../Components/Home/ExpertSection/ExpertSection';
 import Herosection from '../../../Components/Home/Herosection/Herosection';
+import GrowSection from '../../../Components/Home/GrowSection/GrowSection';
 // import Footer from '../../../Components/Home/Footer/Footer';
 export default class Home extends Component {
   render() {
@@ -12,6 +13,7 @@ export default class Home extends Component {
         < ExpertSection />
         <GrowYourBusiness />
         < Herosection />
+        <GrowSection />
         {/* <HowItWorks /> */}
         {/* <Footer /> */}
       </div>
