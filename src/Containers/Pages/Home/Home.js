@@ -5,7 +5,7 @@ import ExpertSection from '../../../Components/Home/ExpertSection/ExpertSection'
 import Herosection from '../../../Components/Home/Herosection/Herosection';
 import GrowSection from '../../../Components/Home/GrowSection/GrowSection';
 import PeopleFavourites from '../../../Components/Home/People favourites/People_favourites';
-// import HowItWorks from '../../../Components/Home/works/works';
+import HowItWorks from '../../../Components/Home/works/works';
 // import Footer from '../../../Components/Home/Footer/Footer';
 export default class Home extends Component {
   render() {
@@ -17,7 +17,7 @@ export default class Home extends Component {
         < Herosection />
         <GrowSection />
         <PeopleFavourites />
-        {/* <HowItWorks /> */}
+        <HowItWorks />
         {/* <Footer /> */}
       </div>
     )
