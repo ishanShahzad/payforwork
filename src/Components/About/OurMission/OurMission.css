@@ -1,16 +1,12 @@
 * {
   font-family: "nunito sans", sans-serif;
   background-color: transparent !important;
-  overflow-x: hidden;
 }
 
 .bg-img {
   background: url("./background2.png");
   background-repeat: no-repeat;
-  /* height: 100vh; */
   padding-bottom: 170px;
-  width: 100vw;
-  overflow-x: hidden;
 }
 .heading {
   text-decoration: underline;
@@ -26,9 +22,6 @@
   line-height: 50px;
 }
 @media screen and (min-width: 600px) {
-  * {
-    overflow-x: hidden;
-  }
   .heading-big {
     font-size: 36px;
     line-height: 47px;

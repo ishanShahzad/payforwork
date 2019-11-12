@@ -13,8 +13,8 @@
   background-position-y: -18px;
 }
 /* .test {
-      border: 1px solid black;
-    } */
+  border: 1px solid black;
+} */
 .img-1,
 .img-2,
 .img-3 {
@@ -42,7 +42,7 @@
   color: #112445;
   font-weight: 700;
   letter-spacing: 1px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .styled-para {
   letter-spacing: 0.3px;
@@ -58,7 +58,7 @@
 .find-btn {
   background: #2ac884 !important;
   color: #fff;
-  font-weight: 500;
+  font-weight: 800;
   padding: 15px 30px;
   display: inline-block;
   margin: 30px auto 15px;

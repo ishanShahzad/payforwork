@@ -3,7 +3,7 @@ import "./BestFreelancer.css";
 function BestFreelancer() {
   return (
     <div className="app">
-      <div className="container-fluid pt-5">
+      <div className="container-fluid pt-5 test">
         <div className="row pt-5 px-0 px-lg-5 px-md-5">
           <div className="col-lg-6 col-md-12 col-sm-12 test"></div>
           <div className="col-lg-6 col-md-12 col-sm-12 test">
