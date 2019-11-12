@@ -12,8 +12,8 @@ function GrowYourBusiness() {
             <div className="col-md-3 mb-3">
               <div className="card">
                 <div className="card-body web-card d-flex justify-content-center align-items-center flex-column">
-                  <img className="web-developers" src="https://www.payforworks.com/images/hmn1.png" />
-                  <img className="web-hover" src="https://www.payforworks.com/images/hmn1-hover.png" />
+                  <img alt="..." className="web-developers" src="https://www.payforworks.com/images/hmn1.png" />
+                  <img alt="..." className="web-hover" src="https://www.payforworks.com/images/hmn1-hover.png" />
                   <h6 className="mt-3 text-uppercase category-h6">Web Developers</h6>
                 </div>
               </div>
@@ -21,8 +21,8 @@ function GrowYourBusiness() {
             <div className="col-md-3 mb-3">
               <div className="card">
                 <div className="card-body designers-card d-flex justify-content-center align-items-center flex-column">
-                  <img className="designers" src="https://www.payforworks.com/images/hmn2.png" />
-                  <img className="designers-hover" src="https://www.payforworks.com/images/hmn2-hover.png" />
+                  <img alt="..." className="designers" src="https://www.payforworks.com/images/hmn2.png" />
+                  <img alt="..." className="designers-hover" src="https://www.payforworks.com/images/hmn2-hover.png" />
                   <h6 className="mt-3 text-uppercase category-h6">Designers</h6>
                 </div>
               </div>
@@ -30,8 +30,8 @@ function GrowYourBusiness() {
             <div className="col-md-3 mb-3">
               <div className="card">
                 <div className="card-body marketing-card d-flex justify-content-center align-items-center flex-column">
-                  <img className="marketing" src="https://www.payforworks.com/images/hmn3.png" />
-                  <img className="marketing-hover" src="https://www.payforworks.com/images/hmn3-hover.png" />
+                  <img alt="..." className="marketing" src="https://www.payforworks.com/images/hmn3.png" />
+                  <img alt="..." className="marketing-hover" src="https://www.payforworks.com/images/hmn3-hover.png" />
                   <h6 className="mt-3 text-uppercase category-h6">Marketing Experts</h6>
                 </div>
               </div>
@@ -39,8 +39,8 @@ function GrowYourBusiness() {
             <div className="col-md-3 mb-3">
               <div className="card">
                 <div className="card-body writers-card d-flex justify-content-center align-items-center flex-column">
-                  <img className="writers" src="https://www.payforworks.com/images/hmn4.png" />
-                  <img className="writers-hover" src="https://www.payforworks.com/images/hmn4-hover.png" />
+                  <img alt="..." className="writers" src="https://www.payforworks.com/images/hmn4.png" />
+                  <img alt="..." className="writers-hover" src="https://www.payforworks.com/images/hmn4-hover.png" />
                   <h6 className="mt-3 text-uppercase category-h6">Writers</h6>
                 </div>
               </div>
@@ -52,8 +52,8 @@ function GrowYourBusiness() {
             <div className="col-md-3 mb-3">
               <div className="card">
                 <div className="card-body admin-assistants-card d-flex justify-content-center align-items-center flex-column">
-                  <img className="admin-assistants" src="https://www.payforworks.com/images/hmn5.png" />
-                  <img className="admin-assistants-hover" src="https://www.payforworks.com/images/hmn5-hover.png" />
+                  <img alt="..." className="admin-assistants" src="https://www.payforworks.com/images/hmn5.png" />
+                  <img alt="..." className="admin-assistants-hover" src="https://www.payforworks.com/images/hmn5-hover.png" />
                   <h6 className="mt-3 text-uppercase category-h6">Admin Assistants</h6>
                 </div>
               </div>
@@ -61,8 +61,8 @@ function GrowYourBusiness() {
             <div className="col-md-3 mb-3">
               <div className="card">
                 <div className="card-body social-media-experts-card d-flex justify-content-center align-items-center flex-column">
-                  <img className="social-media-experts" src="https://www.payforworks.com/images/hmn8.png" />
-                  <img className="social-media-experts-hover" src="https://www.payforworks.com/images/hmn8-hover.png" />
+                  <img alt="..." className="social-media-experts" src="https://www.payforworks.com/images/hmn8.png" />
+                  <img alt="..." className="social-media-experts-hover" src="https://www.payforworks.com/images/hmn8-hover.png" />
                   <h6 className="mt-3 text-uppercase category-h6">Social Media Experts</h6>
                 </div>
               </div>
@@ -70,8 +70,8 @@ function GrowYourBusiness() {
             <div className="col-md-3 mb-3">
               <div className="card">
                 <div className="card-body customer-support-card d-flex justify-content-center align-items-center flex-column">
-                  <img className="customer-support" src="https://www.payforworks.com/images/hmn6.png" />
-                  <img className="customer-support-hover" src="https://www.payforworks.com/images/hmn6-hover.png" />
+                  <img alt="..." className="customer-support" src="https://www.payforworks.com/images/hmn6.png" />
+                  <img alt="..." className="customer-support-hover" src="https://www.payforworks.com/images/hmn6-hover.png" />
                   <h6 className="mt-3 text-uppercase category-h6">Customer Support </h6>
                 </div>
               </div>
@@ -79,8 +79,8 @@ function GrowYourBusiness() {
             <div className="col-md-3 mb-3">
               <div className="card">
                 <div className="card-body accountants-card d-flex justify-content-center align-items-center flex-column">
-                  <img className="accountants" src="https://www.payforworks.com/images/hmn7.png" />
-                  <img className="accountants-hover" src="https://www.payforworks.com/images/hmn7-hover.png" />
+                  <img alt="..." className="accountants" src="https://www.payforworks.com/images/hmn7.png" />
+                  <img alt="..." className="accountants-hover" src="https://www.payforworks.com/images/hmn7-hover.png" />
                   <p className="mt-3 text-uppercase category-h6">Accountants</p>
                 </div>
               </div>
