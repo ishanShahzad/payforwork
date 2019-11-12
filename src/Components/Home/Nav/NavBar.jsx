@@ -45,7 +45,7 @@ class NavBar extends Component {
                   FIND
                 </a>
                 <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item  row mr-0" href="#">
+                  <a class="dropdown-item  " href="#">
                     <img
                       src="https://www.payforworks.com/images/dd-jobs.png"
                       alt="Payforworks-jobs-icon"
@@ -54,7 +54,7 @@ class NavBar extends Component {
                     JOBS
                   </a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item row mr-0" href="#">
+                  <a class="dropdown-item " href="#">
                     <img
                       src="https://www.payforworks.com/images/dd-fls.png"
                       alt="Payforworks-freelancer-icon"
