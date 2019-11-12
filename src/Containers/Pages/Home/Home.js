@@ -4,6 +4,7 @@ import NavBar from '../../../Components/Home/NavBar/NavBar';
 import ExpertSection from '../../../Components/Home/ExpertSection/ExpertSection';
 import Herosection from '../../../Components/Home/Herosection/Herosection';
 import GrowSection from '../../../Components/Home/GrowSection/GrowSection';
+import PeopleFavourites from '../../../Components/Home/People favourites/People_favourites';
 // import Footer from '../../../Components/Home/Footer/Footer';
 export default class Home extends Component {
   render() {
@@ -14,6 +15,7 @@ export default class Home extends Component {
         <GrowYourBusiness />
         < Herosection />
         <GrowSection />
+        <PeopleFavourites />
         {/* <HowItWorks /> */}
         {/* <Footer /> */}
       </div>
