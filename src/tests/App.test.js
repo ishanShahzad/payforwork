@@ -20,6 +20,7 @@
 //     console.log(paraText);
 //     expect(paraText).toBe("In just a few simple steps we will get you connected.");
 
+<<<<<<< HEAD
 //     // const button = wrapper.find("button");
 //     // const counter = wrapper.find("p").text();
 //     // expect(counter).toEqual("0");
@@ -30,3 +31,18 @@
 //     // console.log(counter2);
 //   });
 // });
+=======
+    const heading = wrapper.find("h3.heading");
+    const headingText = heading.text();
+    console.log(headingText);
+    expect(headingText).toBe("Incredible Job results");
+
+    // const paragraph = wrapper.find("p.hrp");
+    // const paragraphText = paragraph.text();
+    // console.log(paragraphText);
+    // expect(paragraphText).toBe(
+    //   "Upturn your business through the top quality freelancers listed here. 100's of jobs done every week on all categories of web development, Wordpress development, etc"
+    // );
+  });
+});
+>>>>>>> bb24cb51e2e690ad1dd3d4bef12f3455b1fa97a1
