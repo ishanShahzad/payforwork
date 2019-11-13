@@ -1,5 +1,5 @@
 import React from 'react'
-import './ExpertSection.css';
+import './ExpertSection.scss';
 export default function ExpertSection() {
     return (
         <div className="background container-fluid d-flex align-items-center">

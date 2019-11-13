@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ishanShahzad/payforwork/static/css/main.f898bf5d.chunk.css",
+    "main.js": "/ishanShahzad/payforwork/static/js/main.7664da18.chunk.js",
+    "main.js.map": "/ishanShahzad/payforwork/static/js/main.7664da18.chunk.js.map",
+    "runtime-main.js": "/ishanShahzad/payforwork/static/js/runtime-main.2c5e60cf.js",
+    "runtime-main.js.map": "/ishanShahzad/payforwork/static/js/runtime-main.2c5e60cf.js.map",
+    "static/js/2.1e8b637a.chunk.js": "/ishanShahzad/payforwork/static/js/2.1e8b637a.chunk.js",
+    "static/js/2.1e8b637a.chunk.js.map": "/ishanShahzad/payforwork/static/js/2.1e8b637a.chunk.js.map",
+    "index.html": "/ishanShahzad/payforwork/index.html",
+    "precache-manifest.c081eaa7863bed8148649fa04496bc7a.js": "/ishanShahzad/payforwork/precache-manifest.c081eaa7863bed8148649fa04496bc7a.js",
+    "service-worker.js": "/ishanShahzad/payforwork/service-worker.js",
+    "static/css/main.f898bf5d.chunk.css.map": "/ishanShahzad/payforwork/static/css/main.f898bf5d.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c5e60cf.js",
+    "static/js/2.1e8b637a.chunk.js",
+    "static/css/main.f898bf5d.chunk.css",
+    "static/js/main.7664da18.chunk.js"
+  ]
+}
