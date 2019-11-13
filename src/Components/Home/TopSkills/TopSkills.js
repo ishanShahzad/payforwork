@@ -1,8 +1,8 @@
 import React from 'react'
-import "TopSkills.css" 
+import "./TopSkills.scss" 
 export default function TopSkills() {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid malik">
             <div className="umar" >
             <h2 className="mt-5 text-dark" style={{fontFamily:"nunito sans,sans-serif",fontWeight:"600",fontSize:"30px",margin:"20px 0 30px"}}>TopSkills</h2>
             <div className="row " style={{fontWeight:"lighter",fontSize:"14px"}}>
