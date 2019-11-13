@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import "./Herosection.css";
+import "./Herosection.scss";
 export default class Herosection extends Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid junaid1">
         <div className="container-fluid mt-5">
           <div className="row">
             <div className="col-md-12 col-lg-6 hs1_conte mt-5 ">
