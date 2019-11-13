@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import "./postjob.scss";
-import "./postTab.scss";
-import "./postMobile.scss";
+// import "./postTab.scss";
+// import "./postMobile.scss";
 
 
 export default class postJob extends Component {
-    //  onButtonClick = e => {
-    //     e.preventDefault();
-    //     console.log('The link was clicked.');
-    //   }
+   
     render() {
         return (
             <div>
@@ -61,7 +58,7 @@ export default class postJob extends Component {
                         <label className="location" id="label_6">LOCATION</label>
                         <input className="locate" type="password" placeholder="Karachi, Sindh, Pakistan"/>  
                         <button className="btn">NEXT ></button>
-                    </div>
+                     </div>
 
 
                 </div>

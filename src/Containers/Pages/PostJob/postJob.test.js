@@ -2,9 +2,9 @@ import EnzymeAdapter from "enzyme-adapter-react-16";
 import React from "react";
 import Enzyme,{shallow} from "enzyme";
 import PostJob from "./postJob";
-import { wrap } from "module";
-import sinon from "sinon";
-import {mount} from "enzyme";
+const wrapper = shallow(<PostJob />);
+// import sinon from "sinon";
+// import {mount} from "enzyme";
 
 Enzyme.configure({adapter: new EnzymeAdapter()})
 test('text show', () => {
