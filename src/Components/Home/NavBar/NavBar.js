@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import "./NavBar.css";
+import "./NavBar.scss";
 import { Link } from 'react-router-dom';
 class NavBar extends Component {
   state = {};
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-expand-md navbar-light bg-white sticky-top">
+        <nav className="navbar navbar-expand-md navbar-light bg-white sticky-top payforwork-navbar">
           <a className="navbar-brand" href="/">
             <img
               src="https://www.payforworks.com/images/logo_dark.png"

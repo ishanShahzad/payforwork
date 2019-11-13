@@ -5,6 +5,8 @@ import { Route, Switch } from "react-router-dom";
 import Signup from "../../Components/Home/Signup/Signup";
 import LoginPage from "../../Components/LoginPage/LoginPage";
 
+// import Footer from "../Pages/Home/MainFooter/main-Footer";
+import Footer from "../../Components/Footer/Footer";
 class App extends React.Component {
   state = {};
 

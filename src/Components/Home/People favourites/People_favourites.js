@@ -56,7 +56,7 @@ export default class PeopleFavourites extends Component {
 
 
 
-        <div class="ppl_favr main">
+        <div class="ppl_favr">
           <div class="container contain">
             <div class="pfv_title">
               <h2>People favourites</h2>
