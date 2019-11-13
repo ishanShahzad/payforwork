@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,800&display=swap');
+.ppl_favr {
+    background: #fff;
+    padding: 80px 0;
+    * {
+        box-sizing: border-box;
+        font-family: 'Nunito Sans', sans-serif;
+        outline: none;
+    }
+    .pfv_title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .pfv_title h2 {
+        color: #222;
+        font-size: 33px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    .pfv_title h4 {
+        line-height: 30px;
+        color: #222;
+        font-weight: 300;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .pfv_ct a h3 {
+        color: #101214;
+        font-weight: 800;
+        font-size: 22px;
+    }
+    .pfv_img {
+        position: relative;
+        overflow: hidden;
+    }
+    .pfv_img>img {
+        transition: all .3s ease-in-out;
+    }
+    .pfv_img::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 200%;
+        position: absolute;
+        bottom: 0;
+        background: rgba(255,255,255,.7);
+        left: -30%;
+        box-shadow: 0 0 9px 20px rgba(255,255,255,.1);
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        transition: all .7s ease-in-out;
+        top: -36%;
+    }
+    .pfv_img:hover::after {
+        left: 150%;
+    }
+    .pfv_img:hover>img {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .img-responsive, .thumbnail a>img, .thumbnail>img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .pfv_ct {
+        margin-bottom: 40px;
+    }
+    .pfv_ct a {
+        color: #19c597;
+        vertical-align: middle;
+        font-size: 17px;
+    }
+    .pfv_ct a {
+        color: #19c597;
+        vertical-align: middle;
+        font-size: 17px;
+    }
+    button:focus, a:focus, a, button {
+        outline: none!important;
+    }
+    a, a:hover, a:active, a:focus {
+        outline: none !important;
+        text-decoration: none !important;
+    }
+    .pfv_ct a h3 {
+        color: #101214;
+        font-weight: 800;
+    
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .pfv_ct a {
+        color: #19c597;
+        vertical-align: middle;
+        font-size: 17px;
+    }
+    .pfv_ct a>img {
+        vertical-align: middle;
+        margin-left: 4px;
+        width: 26px;
+        transition: all .2s ease-in-out;
+    }
+    .pfv_ct a:hover>img {
+        margin-left: 8px;
+    }
+    a:hover, a:focus {
+        color: #2ac884 !important;
+        text-decoration: underline;
+    }
+
+
+
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+    
+    }
+
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .col-md-3,  .col-sm-6{
+        position: relative;
+        min-height: 1px;
+        padding-left: 7.5px !important;
+        padding-right: 7.5px !important;
+    }
+    @media (min-width: 768px)
+    {
+        .container {
+        // width: 735px;
+        max-width: 735px;
+    }
+    .col-sm-6 {
+        max-width:50%;
+        float: left;
+    }
+    }
+
+    @media screen and (max-width: 992px) and (min-width: 769px)
+    {.container {
+    max-width: 95% !important;
+    width: 95% !important;
+    }}
+
+    @media (min-width: 992px)
+    {.col-md-3 {
+        max-width: 25%;
+    }
+    .container {
+        max-width: 955px ;
+    }
+    }
+
+    @media screen and (max-width: 1220px) and (min-width: 993px)
+    {.container {
+        max-width: 90% !important;
+    }}
+
+    @media screen and (max-width: 1300px) and (min-width: 1220px)
+    {.container {
+        max-width: 1200px !important;
+    }}
+
+    @media only screen and (max-width: 768px)
+    {
+        .col-lg-3.col-sm-6.pfv_col {
+            max-width: 50%;
+            float: left;    
+        }
+        .pfv_ct a h3 {
+            font-size: 16px;
+        }
+        .pfv_ct a {
+            font-size: 14px;
+        }
+        .container {
+            max-width: 90% !important;
+        }
+    }
+
+
+
+    @media (min-width: 1300px)
+    {.container {
+        max-width: 1240px !important;
+        // width:100%;
+    }}
+
+
+}

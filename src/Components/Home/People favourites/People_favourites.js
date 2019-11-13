@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./People_favourites.css";
+import "./People_favourites.scss";
 export default class PeopleFavourites extends Component {
   render() {
     return (
@@ -56,51 +56,51 @@ export default class PeopleFavourites extends Component {
 
 
 
-        <div class="ppl_favr"> 
-        <div class="container contain"> 
-          <div class="pfv_title"> 
-          <h2>People favourites</h2>
-          <h4>Top hired freelancers <br/>
-            Get your work done , from small changes to large build</h4>
-            </div> 
-           <div class="pfv_row row"> 
-           <div class="col-lg-3 col-md-6 col-sm-6 pfv_col">
-              <div class="pfv_item"> <div class="pfv_block"> 
-              <div class="pfv_img"> 
-              <img src="https://www.payforworks.com/images/pfv_1.png"
-               alt="Payforworks-wordpress-development-icon" class="img-responsive"/>
-                </div> <div class="pfv_ct"> 
-                <a href="/">
-                  <h3>WordPress development</h3></a>
-                   <a href="/">Find resources 
-                   <img src="https://www.payforworks.com/images/g_arrow.png" alt="Payforworks-arrow-icon"/></a> 
-                   </div> </div> </div> </div> <div class="col-lg-3 col-md-6  col-sm-6 pfv_col">
-                      <div class="pfv_item"> <div class="pfv_block">
-                         <div class="pfv_img"> <img src="https://www.payforworks.com/images/pfv_2.png" 
-                         alt="Payforworks-website-design-icon" class="img-responsive"/>
-                          </div> <div class="pfv_ct"> 
-                          <a href="/">
-                            <h3>Website design</h3></a> 
-                            <a href="/">
-                              Find resources <img src="https://www.payforworks.com/images/g_arrow.png" 
-                              alt="Payforworks-arrow-icon"/></a> </div> </div>
-                               </div> </div> <div class="col-lg-3 col-md-6 col-sm-6 pfv_col"> 
-                               <div class="pfv_item"> <div class="pfv_block"> <div class="pfv_img">
-                                  <img src="https://www.payforworks.com/images/pfv_3.png"
-                                   alt="Payforworks-logo-design-icon" class="img-responsive"/>
-                                    </div> <div class="pfv_ct"> 
-            <a href="/">
-              <h3>Logo design</h3></a>
-             <a href="/">Find resources
-              <img src="https://www.payforworks.com/images/g_arrow.png" alt="Payforworks-arrow-icon"/></a> 
-              </div> </div> </div> </div> <div class="col-lg-3 col-md-6  col-sm-6  pfv_col"> <div class="pfv_item"> 
-              <div class="pfv_block"> <div class="pfv_img"> <img src="https://www.payforworks.com/images/pfv_4.png"
-               alt="Payforworks-seo-experts-icon" class="img-responsive"/>
-                </div> <div class="pfv_ct"> <a href="https://www.payforworks.com/user/freelancers?skill=SEO,SEO expert">
-                  <h3>SEO Experts</h3></a>
-                   <a href="/">Find resources
-                    <img src="https://www.payforworks.com/images/g_arrow.png" alt="Payforworks-arrow-icon"/></a> 
-                    </div> </div> </div> </div> </div> </div> </div>
+        <div class="ppl_favr main">
+          <div class="container contain">
+            <div class="pfv_title">
+              <h2>People favourites</h2>
+              <h4>Top hired freelancers <br />
+                Get your work done , from small changes to large build</h4>
+            </div>
+            <div class="pfv_row row">
+              <div class="col-lg-3 col-md-6 col-sm-6 pfv_col">
+                <div class="pfv_item"> <div class="pfv_block">
+                  <div class="pfv_img">
+                    <img src="https://www.payforworks.com/images/pfv_1.png"
+                      alt="Payforworks-wordpress-development-icon" class="img-responsive" />
+                  </div> <div class="pfv_ct">
+                    <a href="/">
+                      <h3>WordPress development</h3></a>
+                    <a href="/">Find resources
+                   <img src="https://www.payforworks.com/images/g_arrow.png" alt="Payforworks-arrow-icon" /></a>
+                  </div> </div> </div> </div> <div class="col-lg-3 col-md-6  col-sm-6 pfv_col">
+                <div class="pfv_item"> <div class="pfv_block">
+                  <div class="pfv_img"> <img src="https://www.payforworks.com/images/pfv_2.png"
+                    alt="Payforworks-website-design-icon" class="img-responsive" />
+                  </div> <div class="pfv_ct">
+                    <a href="/">
+                      <h3>Website design</h3></a>
+                    <a href="/">
+                      Find resources <img src="https://www.payforworks.com/images/g_arrow.png"
+                        alt="Payforworks-arrow-icon" /></a> </div> </div>
+                </div> </div> <div class="col-lg-3 col-md-6 col-sm-6 pfv_col">
+                <div class="pfv_item"> <div class="pfv_block"> <div class="pfv_img">
+                  <img src="https://www.payforworks.com/images/pfv_3.png"
+                    alt="Payforworks-logo-design-icon" class="img-responsive" />
+                </div> <div class="pfv_ct">
+                    <a href="/">
+                      <h3>Logo design</h3></a>
+                    <a href="/">Find resources
+              <img src="https://www.payforworks.com/images/g_arrow.png" alt="Payforworks-arrow-icon" /></a>
+                  </div> </div> </div> </div> <div class="col-lg-3 col-md-6  col-sm-6  pfv_col"> <div class="pfv_item">
+                    <div class="pfv_block"> <div class="pfv_img"> <img src="https://www.payforworks.com/images/pfv_4.png"
+                      alt="Payforworks-seo-experts-icon" class="img-responsive" />
+                    </div> <div class="pfv_ct"> <a href="https://www.payforworks.com/user/freelancers?skill=SEO,SEO expert">
+                      <h3>SEO Experts</h3></a>
+                        <a href="/">Find resources
+                    <img src="https://www.payforworks.com/images/g_arrow.png" alt="Payforworks-arrow-icon" /></a>
+                      </div> </div> </div> </div> </div> </div> </div>
       </React.Fragment>
     );
   }

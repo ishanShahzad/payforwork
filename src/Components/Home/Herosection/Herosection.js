@@ -29,10 +29,9 @@ export default class Herosection extends Component {
               </div>
               <div className="hs2-dot2-img"></div>
             </div>
-            <div className=" col-md-12 col-lg-6 container-fluid hs2_px">
-              <img src="" alt="" />
+            <div className=" col-md-12 col-lg-6 container-fluid hs2_px ">
               <img
-                className="img-fluid mb-3"
+                className="img-fluid pb-4 mb-5 "
                 src="https://www.payforworks.com/images/hs2_px.png"
                 alt=""
               />
