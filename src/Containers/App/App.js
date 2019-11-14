@@ -6,6 +6,7 @@ import Signup from "../../Components/Home/Signup/Signup";
 import LoginPage from "../../Components/LoginPage/LoginPage";
 import NavBar from '../../Components/CommonComponents/NavBar/NavBar';
 import Footer from '../../Components/CommonComponents/Footer/Footer';
+// import postJob from "../../Components/Home/PostJob/postJob";
 class App extends React.Component {
   state = {};
 
@@ -17,6 +18,9 @@ class App extends React.Component {
           <Route path="/" exact component={Home} />
           <Route path="/signup" component={Signup} />
           <Route path="/login" component={LoginPage} />
+          {/* <Route path="/postjob" component={postJob} /> */}
+
+
 
 
 

@@ -48,7 +48,7 @@ function LoginPage() {
                     <input type="checkbox" id="remember_cookie_" class="filter_type" name="check" />
                     <label for="remember_cookie_"><span>Remember me</span></label>
                   </div>
-                  <span class="forgt_link" style={{ "float": "right", marginTop: "-20px" }}>  <a href="/" id="fgt_rst_pass">Forgot password?</a></span> </div>
+                  <span class="forgt_link" style={{ "float": "right", marginTop: "-25px" }}>  <a href="/" id="fgt_rst_pass">Forgot password?</a></span> </div>
               </div>
               <div class="inp_wrap wrap_lgn"> <input name="login" type="submit" class="for_button login_btn mt-5" value="LOG IN" />
               </div> </form>

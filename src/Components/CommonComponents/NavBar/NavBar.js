@@ -87,7 +87,7 @@ class NavBar extends Component {
                 </a>
               </li>
               <li className="nav-item">
-                <button className="btn btn-lg text-white">POST JOBS</button>
+                <button className="btn btn-lg text-white"><Link to='/postjob'>POST JOBS</Link></button>
               </li>
             </ul>
           </div>

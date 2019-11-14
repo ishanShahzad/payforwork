@@ -1,0 +1,257 @@
+@import "./postTab.scss";
+@import "./postMobile.scss";
+
+.main{
+    position: relative;
+    height: 1100px;
+    width: 100%;
+    background-color: lightgrey;
+
+}
+.post-form{
+    position: absolute;
+    height: 1000px;
+    width: 80%;
+    left: 12%;
+    top: 5%;
+}
+.h1{
+    position: absolute;
+    font-family: sans-serif, Arial;
+    font-weight: 400;
+    left: 40%;
+    top: 5%;
+    margin-left: 55px;
+}
+.main-para{
+    position: absolute;
+    font-family: sans-serif, Arial;
+    text-align: center;
+    left: 26%;
+    text-align: center;
+    font-size: 18px;
+    top: 12%;
+    color: inherit;
+}
+.aside{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    height: 400px;
+    width: 30%;
+    list-style: none;
+}
+.list1{
+    position: absolute;
+    height: 30%;
+    width: 70%;
+}
+.listed{
+    position: absolute;
+}
+.img1{
+    position: absolute;
+    height: 100px;
+    width: 280px;
+    top: 30%;
+}
+
+.img1 img{
+    position: absolute;
+    height: 60px;
+    width: 50px;
+    top: 10%;
+    left: 0;
+}
+.paragraph{
+    position: absolute;
+    font-family: sans-serif, Arial;
+    font-size: 15px;
+    left: 22%;
+    top: 0px;
+    color: grey;
+    width: 70%;
+ }
+.list2{
+    position: absolute;
+    height: 5%;
+    width: 100%;
+    top: 30%;
+    font-family: sans-serif, Arial;
+    color: grey;
+}
+.list3{
+    position: absolute;
+    height: 5%;
+    width: 100%;
+    top: 45%;
+    font-family: sans-serif, Arial;
+    color: grey;
+
+}
+.list4{
+    position: absolute;
+    height: 5%;
+    width: 100%;
+    top: 60%;
+    font-family: sans-serif, Arial;
+    color: grey;
+
+}
+.list5{
+    position: absolute;
+    height: 5%;
+    width: 100%;
+    top: 75%;
+    font-family: sans-serif, Arial;
+    color: grey;
+
+}
+
+
+.form{
+    position: absolute;
+    left: 34%;
+    height: 100vh;
+    width: 62%;
+    top: 23%;
+}
+.label-head{
+    position: absolute;
+    border-bottom: 2px solid;
+    margin-top: 0px;
+    top: 20px;
+}
+
+.email{
+    position: absolute;
+    top: 10%;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #424242;
+    font-size: 14px;
+    font-family: 800;
+}
+.em{
+    width: 95%;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid #e5e3e3;
+    padding: 10px 15px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 21px;
+    position: absolute;
+    top: 14%;
+    color: lightgray;
+
+}
+.first{
+    position: absolute;
+    top: 22%;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #424242;
+}
+.name1{
+    width: 95%;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid #e5e3e3;
+    padding: 10px 15px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 21px;
+    position: absolute;
+    top: 27%;
+    color: lightgray;
+}
+.last{
+    position: absolute;
+    top: 35%;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #424242;
+}
+.name2{
+    width: 95%;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid #e5e3e3;
+    padding: 10px 15px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 21px;
+    position: absolute;
+    top: 40%;
+    color: lightgray;
+}
+.password{
+    position: absolute;
+    top: 48%;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #424242;
+}
+.pass{
+    width: 95%;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid #e5e3e3;
+    padding: 10px 15px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 21px;
+    position: absolute;
+    top: 53%;
+    color: lightgray;
+}
+.confirm{
+    position: absolute;
+    top: 61%;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #424242;
+}
+.pass2{
+    width: 95%;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #e5e3e3;
+    padding: 10px 15px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 21px;
+    position: absolute;
+    top: 66%;
+}
+.location{
+    position: absolute;
+    top: 75%;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #424242;
+}
+.locate{
+    width: 95%;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #e5e3e3;
+    padding: 10px 15px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 21px;
+    position: absolute;
+    top: 80%;
+}
+.btn{
+    position: absolute;
+    top: 92%;
+    background-color: #25c482;
+    height: 50px;
+    width: 100px;
+    color: #fff;
+    font-family: sans-serif, Arial;
+    cursor: pointer;
+    font-size: 17px;
+}

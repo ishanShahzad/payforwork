@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./Signup.scss"
-
+import {Link } from  'react-router-dom';
 export default class Signup extends Component {
     render() {
         return (
@@ -8,7 +8,7 @@ export default class Signup extends Component {
                 <div className="container-fluid  sign">
         <h1 className="text-center heading">SIGN UP</h1>
         <div className="container-fluid text-center">
-        <p>Already Have An Acount? <span>Log In</span></p>
+        <p>Already Have An Acount? <span><Link to="/login">Log In </Link></span></p>
         </div>
       
       
@@ -77,7 +77,7 @@ export default class Signup extends Component {
 
 
        
-        <button type="submit" className="btn btn-info mb-3 bt1">Submit</button>
+        <button type="submit" className="btn btn-info mb-3 bt1 ">Submit</button>
         
           
       </form>

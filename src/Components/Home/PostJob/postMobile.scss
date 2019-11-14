@@ -1,0 +1,60 @@
+@media only screen and (min-width: 380px)  {
+    .main{
+        position: relative;
+        height: 1000px;
+        width: 100%;
+        background-color: lightgray;
+        
+    }
+    .post-form{
+        position: absolute;
+        background-color: #fff;
+        height: 100%;
+        width: 80%;
+        left: 10%;
+        top: 10%;
+    }
+    .h1{
+        position: absolute;
+        left: 10%;
+        top: 55;
+        margin-left: 25%;
+    }
+    .main-para{
+        position: absolute;
+        font-family: sans-serif, Arial;
+        text-align: center;
+        left: 10%;
+        top: 13%;
+    }
+    .em{
+        position: absolute;
+        top: 10%;
+        padding: 10px 90px;
+    }
+    .name1{
+        position: absolute;
+        top: 22%;
+        padding: 10px 90px;
+    }
+    .name2{
+        position: absolute;
+        top: 34%;
+        padding: 10px 90px;
+    }
+    .pass{
+        position: absolute;
+        top: 46%;
+        padding: 10px 90px;
+    }
+    .pass2{
+        position: absolute;
+        top: 58%;
+        padding: 10px 90px;
+    }
+    .locate{
+        position: absolute;
+        top: 70%;
+        padding: 10px 90px;
+    }
+}

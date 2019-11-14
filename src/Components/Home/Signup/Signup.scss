@@ -12,14 +12,15 @@
   } */
 
   .sign{
-    height: 130vh;
+    // height: 130vh;
     width: 100vw;
-    background-color: #ededec;
-  
+    padding-bottom: 40px;
+    background-color: #ededec;  
   
   .mini{
     /* height: 100vh; */
     width: 78vw;
+    // margin-bottom: 20px;
     background-color: #fff;
   }
   .heading{
@@ -41,7 +42,7 @@
     position: relative;
     left: 30%;
     font-family: "nunito sans", "sans-serif";
-    padding: 13px 10px;
+    // padding: 13px 10px;
   }
   label{
     position: relative;
@@ -66,7 +67,9 @@
  }
   .bt1{
     position: relative;
-    left: 40%;
+    left: 46%;
+    margin-top: 30px;
+    margin-bottom: 40px ; 
     
   }
  
