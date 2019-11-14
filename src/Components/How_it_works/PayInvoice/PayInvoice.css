@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap');
+.hw_tabcont p {
+    font-family: nunito sans,sans-serif;
+    letter-spacing: .3px;
+    line-height: 25px;
+    font-size: 15px;
+    color: #333333;
+}
+@media only screen and (max-width: 992px)
+{.hw_tabcont .row {
+    margin-bottom: 40px;
+}}
+
+.hw_img .hwinv{
+    width: 77%;
+    min-width: 429.59px;
+}
+.only_lg{
+    padding-left: 0px;
+}
+
+.hw_tabcont .row {
+    margin-bottom: 100px;
+}
+/* @media only screen and (max-width: 1300px){
+    .hw_img .hwinv{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .hw_img .hwinv{
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 1080px){
+    .hw_img .hwinv{
+        width: 100%;
+    }
+} */
+@media only screen and (min-width: 992px){
+    .hw_tabcont{
+        margin: 70px 95px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .hw_tabcont{
+        margin: 80px 50px;
+    }
+    .lg_mob .hwinv{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 769px){
+    .hw_tabcont{
+        margin: 80px 60px;
+    }
+    /* .hw_img .hwinv{
+        width: 100%;
+    } */
+}
+
+.andot.aos-animate span {
+    animation-name: andotspa;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.andot span {
+    display: inline-block;
+    height: 8px;
+    background: #31e4e6;
+    width: 25px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.andot.aos-animate::after {
+    animation-name: andotaft;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.andot::after {
+    content: "";
+    display: inline-block;
+    height: 8px;
+    background: #31e4e6;
+    width: 12px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+
+.andot.aos-animate::before {
+    animation-name: andotbef;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.andot::before {
+    content: "";
+    display: inline-block;
+    height: 8px;
+    background: #1dca8c;
+    width: 45px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.hw_mtitle {
+    font-size: 40px;
+    color: #112445;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+}
+@media only screen and (max-width: 768px)
+{.hw_mtitle {
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+}}
+@media only screen and (max-width: 768px)
+{.only_mob {
+    display: block;
+}}
+.only_mob {
+    display: none;
+}
+@media only screen and (max-width: 768px)
+{.img-responsive.hwinv {
+    max-width: 100%;
+    margin-bottom: 20px;
+}}
+@media only screen and (max-width: 992px)
+{.img-responsive.hwinv {
+    margin-top: 50px!important;
+}}
+.img-responsive.hwinv {
+    /* max-width: 440px; */
+    margin: auto;
+    margin-top: 25px;
+}
+.hw_tabcont p, .hw_tabcont a {
+    font-family: nunito sans,sans-serif;
+    letter-spacing: .3px;
+    line-height: 25px;
+    font-size: 15px;
+}
+@media only screen and (max-width: 768px)
+{.hw_tabcont h3 {
+    font-size: 20px;
+}}
+
+.hw_tabcont h4 {
+    color: #112445;
+    font-weight: 500;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 992px)
+{.col-md-6.hw_img, .col-md-6.hw_img img {
+    text-align: center;
+    margin: auto;
+}}
+@media only screen and (max-width: 768px)
+{.only_mob {
+    display: block;
+}}
+@media only screen and (max-width: 768px)
+{.only_lg {
+    display: none;
+}}
+animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+[data-aos][data-aos][data-aos-duration="1500"], body[data-aos-duration="1500"] [data-aos] {
+    transition-duration: 1.5s;
+}
+[data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos] {
+    transition-timing-function: ease;
+}
+
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+    transition-duration: .4s;
+}
+[data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos] {
+    transition-timing-function: ease;
+}
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+    transition-duration: .4s;
+}
+[data-aos=flip-up].aos-animate {
+    transform: perspective(2500px) rotateX(0);
+}
+[data-aos^=flip][data-aos^=flip] {
+    backface-visibility: hidden;
+    transition-property: transform;
+}
+@media only screen and (max-width: 768px)
+{.img-responsive.hwinv {
+    max-width: 100%;
+    margin-bottom: 20px;
+}}
+@media only screen and (max-width: 992px)
+{.img-responsive.hwinv {
+    margin-top: 50px!important;
+}}
+.img-responsive.hwinv {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 25px;
+    min-width: 452px;
+}
+
+@media only screen and (max-width: 590px){
+    .only_mob .hwinv{
+        width: 100%;
+    }
+    .img-responsive.hwinv {
+        min-width: 369px;
+        margin-bottom: 40px;
+    }
+}
