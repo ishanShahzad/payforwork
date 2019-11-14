@@ -71,7 +71,7 @@ class NavBar extends Component {
                 </a>
               </li>
               <li className="nav-item mt-2">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="/howitworks">
                   HOW IT WORKS
                 </a>
               </li>
