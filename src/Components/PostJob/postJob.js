@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import "./postjob.scss";
-// import "./postTab.scss";
-// import "./postMobile.scss";
+import "./postjob.css";
+import "./postTab.css";
+// import "./postMobile.css";
 
 
 export default class postJob extends Component {
@@ -18,7 +18,7 @@ export default class postJob extends Component {
                         <li className="list1">
                             <h3 className="listed" id="head">01 Personal Details</h3>
                             <div className="img1">
-                                <img className="logo" id="image" src="./images/pj.png"/>
+                                <img className="logo img1" src="./images/pj.png"/>
                                 <p className="paragraph" id="paragraph">Add a title for your job.Explain your job in detail.Attach any file if that helps to describe the job.</p>
                             </div>
                         </li>
