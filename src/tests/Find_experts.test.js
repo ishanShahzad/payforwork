@@ -7,15 +7,15 @@ Enzyme.configure ({ adapter: new Adapter()});
 const wrapper = shallow(<FindExperts/>);
 describe("Find Expert Tests", ()=>{
 //First Heading Test Start
-    it("h1 test", () =>{
+    it("heading one test", () =>{
         
-        const heading = wrapper.find('#heading1');
+        const heading = wrapper.find('h2.heading1');
         const headingtext = heading.text();
         expect(headingtext).toBe('Find expert freelancers')
     })
 
 //Second Heading(H3) Start
-it("h3 test", () =>{
+it("heading 2(h3) test", () =>{
         
     const h3 = wrapper.find('h3');
     const text = h3.text();
@@ -40,15 +40,15 @@ it("ParaTwo test", () =>{
 
 //Imgs Test Start
 it("image 2 test", () => {
-    const img = wrapper.find("img.img2").prop("src");
-    expect(img).toEqual("images/one.png");
+    const img = wrapper.find("img.picTwo").prop("src");
+    expect(img).toEqual("https://www.payforworks.com/images/hwk1.png");
   });
 
   
 //Img 2 Test Start
 it("image 1 test", () => {
-    const img = wrapper.find("img.pic").prop("src");
-    expect(img).toEqual("images/one.png");
+    const img = wrapper.find("img.picOne").prop("src");
+    expect(img).toEqual("https://www.payforworks.com/images/hwk1.png");
   });
 
 
