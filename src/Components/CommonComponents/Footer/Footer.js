@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Footer.scss"
-
+import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <footer>
@@ -20,7 +20,7 @@ const Footer = () => {
                         <h3> Company</h3>
                         <ul>
                             <li><a href="https://www.payforworks.com/about">About</a></li>
-                            <li><a href="https://www.payforworks.com/pricing">Pricing</a></li>
+                            <li><a href="/pricing">Pricing</a></li>
                             <li><a href="https://www.payforworks.com/blog">Blog</a></li>
                         </ul>
                     </div>
