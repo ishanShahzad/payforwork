@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     font-family: "nunito sans", "sans-serif";
     -webkit-font-smoothing: antialiased;
@@ -9,13 +9,14 @@ body {
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
       monospace;
-  }
+  } */
+
   .sign{
     height: 130vh;
     width: 100vw;
     background-color: #ededec;
   
-  }
+  
   .mini{
     /* height: 100vh; */
     width: 78vw;
@@ -103,3 +104,4 @@ body {
     cursor: pointer;
     border:#dd4b39 1px solid ;
   }
+}
