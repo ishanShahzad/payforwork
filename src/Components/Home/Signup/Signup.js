@@ -15,7 +15,7 @@ export default class Signup extends Component {
         <div className="container-fluid  mini  rounded">
           <div className="pt-5 ">
             <div className="container-fluid text-center">
-          <div className="btn  mt-2 p-2 font-weight-bold px-5 bt py-2 hov "style={{backgroundColor:"#2a5297" ,color:"white"}}>
+          <div className="btn  mt-2 p-2 font-weight-bold px-5 bt py-2 hov "style={{backgroundColor:"#2a5297" ,color:"white" ,borderRadius:"3px"}}>
               
               <i className="fa fa-facebook" />
 
@@ -27,7 +27,7 @@ export default class Signup extends Component {
               </div>
               &nbsp; 
             
-              <div className="btn text-white pr-3 mt-2 mr-3 bt font-weight-bold px-5 py-2 hov1" style={{backgroundColor:"#dd4b39"}}>
+              <div className="btn text-white pr-3 mt-2 mr-3 bt font-weight-bold px-5 py-2 hov1" style={{backgroundColor:"#dd4b39",borderRadius:"3px"}}>
               
               <i className="fa fa-google" />
 
@@ -77,7 +77,7 @@ export default class Signup extends Component {
 
 
        
-        <button type="submit" className="btn btn-info mb-3 bt1 ">Submit</button>
+        <button type="submit" className="btn btn-info mb-5 bt1" >SIGN UP</button>
         
           
       </form>

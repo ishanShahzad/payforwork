@@ -67,9 +67,17 @@
  }
   .bt1{
     position: relative;
-    left: 46%;
+    left: 30%;
+    width: 40%;
     margin-top: 30px;
-    margin-bottom: 40px ; 
+    margin-bottom: 80px ;
+    padding: 13px;
+    background: -webkit-gradient(linear, left top, right top, from(#1bd472), to(#17a298));
+    border-radius: 30px;
+    transition: all .2s ease-in-out;
+    outline: none;
+    color: white;
+    border: 0;
     
   }
  

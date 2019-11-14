@@ -79,7 +79,7 @@ const Footer = () => {
                                     <div className="terms">
                                         <ul className="sub_links">
                                             <li className="linkz"><a href="https://www.payforworks.com/terms">Terms</a></li>
-                                            <li className="linkz"><a href="https://www.payforworks.com/privacy-policy">Privacy</a></li>
+                                            <li className="linkz"><Link to="privacy">Privacy</Link></li>
                                         </ul>
                                     </div>
                                 </div>
