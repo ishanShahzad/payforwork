@@ -1,9 +1,43 @@
 .bg1 {
+  height: 360px;
   background-image: url(./images/bg.png);
-  background-size: 100% 85%;
+  background-size: 100% 97%;
+  margin-top: 60px;
+}
+.main1 {
+  line-height: 35px;
+}
+.main1 h1 {
+  color: #112445;
+  font-size: 40px;
+  font-weight: 620;
+}
+.main1 p {
+  line-height: 30px;
 }
 .bg1 img {
   width: 100%;
+  height: 120px;
+}
+.img1 {
+  position: relative;
+  bottom: 20px;
+}
+.img2 {
+  margin-left: 25px;
+  position: relative;
+  bottom: 40px;
+}
+.img3 {
+  position: relative;
+  bottom: 60px;
+}
+
+.main1 h3 {
+  color: #112445 !important;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: inherit;
 }
 .btn {
   border-radius: 25px;
