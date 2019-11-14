@@ -1,7 +1,6 @@
 import React from "react";
-import Home from "../Pages/Home/Home";
 import "./App.css";
-// import HelpCenter from '../Pages/HelpCenter/HelpCenter';
+import HelpCenter from '../Pages/HelpCenter/HelpCenter';
 
 class App extends React.Component {
   state = {};
@@ -9,8 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Home />
-        {/* <HelpCenter /> */}
+        <HelpCenter />
       </div>
     );
   }

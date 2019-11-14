@@ -1,58 +1,71 @@
 import React from "react";
 import './Explore.scss';
 
-const Explore = () =>{
-    return(
+const Explore = () => {
+    return (
         <div className="explore">
-            <div className="container">
+            <div className="container-inner">
                 <h3 className="explore-title text-center">Explore the knowledge Base</h3>
-                <div className="explore-container">
-                <div className="row d-flex justify-content-center">
-                    <div className="col-md-3 shadow d-flex flex-column align-items-center">
-                        <div className="cart-img">
-                            <img src="./images/exploreimg1.png" className="img-fluid" />
-                            <p className="cart-title">Getting started</p>
+                <div className="row">
+                    <div className="col-md-4 ">
+                        <div className="inner-container">
+                            <div className="cart-img">
+                                <img src="./images/exploreimg1.png" className="img-fluid img1" alt="img1" />
+                                <p className="cart-title" data-test="para1">Getting started</p>
+                            </div>
+                            <p className="cart-content" data-test="para2">Sign up and build your profile</p>
                         </div>
-                        <p className="cart-content text-center">Sign up and build your profile</p>
                     </div>
-                    <div className="col-md-3 offset-md-1 margin shadow d-flex flex-column align-items-center">
-                    <div className="cart-img">
-                            <img src="./images/exploreimg2.png" className="img-fluid" />
-                            <p className="cart-title">Posting a job </p>
+                    <div className="col-md-4 ">
+                        <div className="inner-container">
+
+                            <div className="cart-img">
+                                <img src="./images/exploreimg2.png" className="img-fluid img2" alt="img2" />
+                                <p className="cart-title" data-test="para3">Posting a job</p>
+                            </div>
+                            <p className="cart-content" data-test="para4">Put together your reqiurments, post a job, invite freelancers</p>
                         </div>
-                        <p className="cart-content text-center">Put together your reqiurments, post a job, invite freelancers </p>
                     </div>
-                    <div className="col-md-3 offset-md-1 shadow d-flex flex-column align-items-center">
-                    <div className="cart-img">
-                            <img src="./images/exploreimg3.png" className="img-fluid" />
-                            <p className="cart-title">Account and billing </p>
+                    <div className="col-md-4 ">
+                        <div className="inner-container">
+
+                            <div className="cart-img">
+                                <img src="./images/exploreimg3.png" className="img-fluid img3" alt="img3" />
+                                <p className="cart-title" data-test="para5">Account and billing</p>
+                            </div>
+                            <p className="cart-content" data-test="para6">Accpount setting, subscription info, bid card</p>
                         </div>
-                        <p className="cart-content text-center"> Accpount setting, subscription info, bid card </p>
                     </div>
-        
-                    <div className="col-md-3 shadow mt-2 d-flex flex-column align-items-center">
-                    <div className="cart-img">
-                            <img src="./images/exploreimg4.png" className="img-fluid" />
-                            <p className="cart-title"> Fee structure </p>
+
+
+                    <div className="col-md-4 ">
+                        <div className="inner-container">
+
+                            <div className="cart-img">
+                                <img src="./images/exploreimg4.png" className="img-fluid img4" alt="img4" />
+                                <p className="cart-title" data-test="para7">Fee structure</p>
+                            </div>
+                            <p className="cart-content" data-test="para8">Job fee, transaction fee, subscription fee</p>
                         </div>
-                        <p className="cart-content text-center"> Job fee, transaction fee, subscription fee </p>
                     </div>
-                    <div className="col-md-3 mt-2 offset-md-1 shadow d-flex flex-column align-items-center">
-                    <div className="cart-img">
-                            <img src="./images/exploreimg5.png" className="img-fluid" />
-                            <p className="cart-title">Bidding process </p>
+                    <div className="col-md-4 ">
+                        <div className="inner-container">
+                            <div className="cart-img">
+                                <img src="./images/exploreimg5.png" className="img-fluid img5" alt="img5" />
+                                <p className="cart-title" data-test="para9">Bidding process</p>
+                            </div>
+                            <p className="cart-content" data-test="para10">Bid credit balance, search for a job, apply for the job</p>
                         </div>
-                        <p className="cart-content text-center"> Bid credit balance, search for a job, apply for the job </p>
                     </div>
-                    <div className="col-md-3 mt-2 offset-md-1 shadow d-flex flex-column align-items-center">
-                    <div className="cart-img">
-                            <img src="./images/exploreimg6.png" className="img-fluid" />
-                            <p className="cart-title"> Types of jobs  </p>
+                    <div className="col-md-4 ">
+                        <div className="inner-container">
+                            <div className="cart-img">
+                                <img src="./images/exploreimg6.png" className="img-fluid img6" alt="img6" />
+                                <p className="cart-title" data-test="para11">Types of jobs</p>
+                            </div>
+                            <p className="cart-content" data-test="para12">Fixed jobs and hourly jobs</p>
                         </div>
-                        <p className="cart-content text-center"> Fixed jobs and hourly jobs </p>
                     </div>
-                    
-                </div>
                 </div>
             </div>
         </div>
