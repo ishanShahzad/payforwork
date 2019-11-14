@@ -1,0 +1,36 @@
+* {
+  font-family: "nunito sans", sans-serif;
+  background-color: transparent !important;
+}
+
+.bg-img {
+  background: url("./background2.png");
+  background-repeat: no-repeat;
+  padding-bottom: 170px;
+}
+.heading {
+  text-decoration: underline;
+  color: White;
+  font-weight: 200;
+  margin-top: 100px;
+}
+
+.heading-big {
+  color: white;
+  font-weight: 500;
+  font-size: 39px;
+  line-height: 50px;
+}
+@media screen and (min-width: 600px) {
+  .heading-big {
+    font-size: 36px;
+    line-height: 47px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .heading-big {
+    font-size: 27px;
+    line-height: 36px;
+    font-weight: 500;
+  }
+}
