@@ -7,13 +7,13 @@ class NavBar extends Component {
     return (
       <React.Fragment>
         <nav className="navbar navbar-expand-md navbar-light bg-white sticky-top payforwork-navbar">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to="/">
             <img
               src="https://www.payforworks.com/images/logo_dark.png"
               alt="LOGO IMG"
               className="logo ml-0 ml-lg-5"
             />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -29,14 +29,14 @@ class NavBar extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto mr-5 ">
               <li className="nav-item mt-2">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/">
                   FIND JOBS
-                </a>
+                </Link>
               </li>
               <li className=" dropdown dis-none mt-3">
-                <a
+                <Link
                   className="dropdown-toggle "
-                  href="/"
+                  to="/"
                   id="navbarDropdown"
                   role="button"
                   data-toggle="dropdown"
@@ -44,47 +44,47 @@ class NavBar extends Component {
                   aria-expanded="false"
                 >
                   FIND
-                </a>
+                </Link>
                 <div className="dropdown-menu " aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item  row mr-0" href="/">
+                  <Link className="dropdown-item  row mr-0" to="/">
                     <img
                       src="https://www.payforworks.com/images/dd-jobs.png"
                       alt="Payforworks-jobs-icon"
                       className="dd-aimg mr-3"
                     />
                     JOBS
-                  </a>
+                  </Link>
                   <div className="dropdown-divider"></div>
-                  <a className="dropdown-item row mr-0" href="/">
+                  <Link className="dropdown-item row mr-0" to="/">
                     <img
                       src="https://www.payforworks.com/images/dd-fls.png"
                       alt="Payforworks-freelancer-icon"
                       className="dd-aimg mr-3"
                     />
                     FREELANCERS
-                  </a>
+                  </Link>
                 </div>
               </li>
               <li className="nav-item mt-2">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/">
                   BROWSER FREELANCERS
-                </a>
+                </Link>
               </li>
               <li className="nav-item mt-2">
-                <a className="nav-link" href="/howitworks">
+                <Link className="nav-link" to="/howitworks">
                   HOW IT WORKS
-                </a>
+                </Link>
               </li>
               <li className="nav-item"></li>
               <li className="nav-item mt-2">
-                <a className="nav-link" href="/">
-                  <Link to="/signup"> SIGN UP</Link>
-                </a>
+
+                <Link to="/signup" className="nav-link"> SIGN UP</Link>
+
               </li>
               <li className="nav-item mt-2">
-                <a className="nav-link" href="/">
-                  <Link to="/login">LOGIN</Link>
-                </a>
+                <Link className="nav-link" to="/login">
+                  LOGIN
+                </Link>
               </li>
               <li className="nav-item">
                 <button className="btn btn-lg text-white"><Link to='/postjob'>POST JOBS</Link></button>

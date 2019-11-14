@@ -1,6 +1,6 @@
 import React from 'react';
 import './LoginPage.scss';
-
+import { Link } from 'react-router-dom';
 function LoginPage() {
   return (
     <div className="first">
@@ -8,24 +8,24 @@ function LoginPage() {
         <div class="top_bg"></div>
         <div className="App login-section">
           <p className="text-center heading p" >Log in</p>
-          <p className="text-center question p" >Don't have an account ? <a href="/signup" className="sign-link" >SIGN UP</a>
+          <p className="text-center question p" >Don't have an account ? <Link to="/signup" className="sign-link" >SIGN UP</Link>
           </p>
         </div>
         <div class="forgot">
           <div class="social_login">
             <div class="login_fb">
-              <a href="/" class="fb_login">
+              <Link to="/" class="fb_login">
                 <button class="lw_fb_btn">
                   <i class="fa fa-facebook"></i> <span>Continue with Faceboook</span>
                 </button>
-              </a>
+              </Link>
             </div>
             <div class="login_li">
-              <a href="/" class="" id="googleSignIn">
+              <Link to="/" class="" id="googleSignIn">
                 <button class="lw_fb_btn glogin ml-1">
                   <i class="fa fa-google"></i> <span>Continue with Google</span>
                 </button>
-              </a>
+              </Link>
             </div>
             <div class="or_text">OR</div>
           </div>
@@ -48,7 +48,7 @@ function LoginPage() {
                     <input type="checkbox" id="remember_cookie_" class="filter_type" name="check" />
                     <label for="remember_cookie_"><span>Remember me</span></label>
                   </div>
-                  <span class="forgt_link" style={{ "float": "right", marginTop: "-25px" }}>  <a href="/" id="fgt_rst_pass">Forgot password?</a></span> </div>
+                  <span class="forgt_link" style={{ "float": "right", marginTop: "-25px" }}>  <Link to="/" id="fgt_rst_pass">Forgot password?</Link></span> </div>
               </div>
               <div class="inp_wrap wrap_lgn"> <input name="login" type="submit" class="for_button login_btn mt-5" value="LOG IN" />
               </div> </form>

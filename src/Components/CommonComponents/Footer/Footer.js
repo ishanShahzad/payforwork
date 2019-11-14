@@ -19,18 +19,18 @@ const Footer = () => {
                     <div className=" col-lg-2 col-md-2 col-sm-3 lefty">
                         <h3> Company</h3>
                         <ul>
-                            <li><a href="https://www.payforworks.com/about">About</a></li>
+                            <li><Link to="/">About</Link></li>
                             <li><Link to="/pricing">Pricing</Link></li>
-                            <li><a href="https://www.payforworks.com/blog">Blog</a></li>
+                            <li><Link to="/">Blog</Link></li>
                         </ul>
                     </div>
 
                     <div className="col-lg-2 col-md-2 col-sm-3 lefty">
                         <h3>Resources</h3>
                         <ul>
-                            <li><a href="https://www.payforworks.com/support">Help center</a></li>
-                            <li><a href="https://www.payforworks.com/how-it-works">How it works</a></li>
-                            <li><a href="https://www.payforworks.com/terms">General terms</a></li>
+                            <li><Link to="/">Help center</Link></li>
+                            <li><Link to="/howitworks">How it works</Link></li>
+                            <li><Link to="/">General terms</Link></li>
                         </ul>
 
                     </div>
@@ -38,9 +38,9 @@ const Footer = () => {
                     <div className="col-lg-2 col-md-2 col-sm-3 lefty">
                         <h3>Other links</h3>
                         <ul>
-                            <li><a href="https://www.payforworks.com/user/freelancers">Find freelancers</a></li>
-                            <li><a href="https://www.payforworks.com/project/job">Find jobs</a></li>
-                            <li><a href="https://www.payforworks.com/user/freelancers">Top freelancers</a></li>
+                            <li><Link to="/">Find freelancers</Link></li>
+                            <li><Link to="/">Find jobs</Link></li>
+                            <li><Link to="/">Top freelancers</Link></li>
                         </ul>
                     </div>
                     <div className=" col-lg-2 col-md-2 col-sm-3 lefty">
@@ -78,7 +78,7 @@ const Footer = () => {
                                 <div className="col-md-9  col-sm-8   links">
                                     <div className="terms">
                                         <ul className="sub_links">
-                                            <li className="linkz"><a href="https://www.payforworks.com/terms">Terms</a></li>
+                                            <li className="linkz"><Link to="/">Terms</Link></li>
                                             <li className="linkz"><Link to="privacy">Privacy</Link></li>
                                         </ul>
                                     </div>
