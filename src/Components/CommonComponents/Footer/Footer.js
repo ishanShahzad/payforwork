@@ -20,7 +20,7 @@ const Footer = () => {
                         <h3> Company</h3>
                         <ul>
                             <li><a href="https://www.payforworks.com/about">About</a></li>
-                            <li><a href="/pricing">Pricing</a></li>
+                            <li><Link to="/pricing">Pricing</Link></li>
                             <li><a href="https://www.payforworks.com/blog">Blog</a></li>
                         </ul>
                     </div>
