@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import "./postjob.css";
-import "./postTab.css";
+import "./postjob.scss";
+import "./postTab.scss";
 // import "./postMobile.css";
 
 

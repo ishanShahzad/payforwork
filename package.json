@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/ishanShahzad/payforwork#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "mongoose": "^5.7.10",
     "node-sass": "^4.13.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",

@@ -1,4 +1,4 @@
-@import "./postTab.css";
+@import "./postTab.scss";
 /* @import "./postMobile.css"; */
 
 .main{
@@ -7,33 +7,32 @@
     width: 100%;
     background-color: lightgrey;
 
-}
-.post-form{
-    position: absolute;
-    height: 1000px;
-    width: 80%;
-    left: 10%;
-    top: 5%;
-    background-color: #fff;
-}
-.h1{
-    position: absolute;
-    font-family: sans-serif, Arial;
-    font-weight: 400;
-    left: 40%;
-    top: 5%;
-    margin-left: 55px;
-}
-.main-para{
-    position: absolute;
-    font-family: sans-serif, Arial;
-    text-align: center;
-    left: 26%;
-    text-align: center;
-    font-size: 18px;
-    top: 12%;
-    color: inherit;
-}
+    .post-form{
+        position: absolute;
+        height: 1000px;
+        width: 80%;
+        left: 10%;
+        top: 5%;
+        background-color: #fff;
+        .h1{
+            position: absolute;
+            font-family: sans-serif, Arial;
+            font-weight: 400;
+            left: 40%;
+            top: 5%;
+            margin-left: 55px;
+        }
+        .main-para{
+            position: absolute;
+            font-family: sans-serif, Arial;
+            text-align: center;
+            left: 26%;
+            text-align: center;
+            font-size: 18px;
+            top: 12%;
+            color: inherit;
+        }
+        
 .aside{
     position: absolute;
     top: 20%;
@@ -108,7 +107,6 @@
     color: grey;
 
 }
-
 
 .form{
     position: absolute;
@@ -256,3 +254,7 @@
     cursor: pointer;
     font-size: 17px;
 }
+
+    }
+}
+
