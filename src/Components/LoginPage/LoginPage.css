@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,800&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: Nunito sans,sans-serif;
+  outline: none;
+}
+
+.first {
+    background-color: #EDEDEC;
+  }
+  .main_bg {
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 30px;
+  }
+  .main_bg {
+    width: 996px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .heading{
+      font-size: 40px;
+      font-weight: 300;
+      color: #010101;
+      line-height: 58px;
+  }
+  /* .question{
+    margin: 0 0 10px;
+  } */
+  .sign-link{
+    color:#2ac884;
+    text-decoration: none;
+  }
+  .top_bg {
+    padding: 5px 0;
+  }
+  
+  p {
+    margin: 0 0 10px;
+    box-sizing: border-box;
+    font-family: Nunito sans,sans-serif;
+    outline: none;
+  }
+  a:hover, a:focus, a:active {
+    text-decoration: none;
+    color:#2ac884;
+  }
+  .forgot {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #fff;
+    padding: 7% 10%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  .social_login {
+    text-align: center;
+    margin-top: -15px;
+  }
+  .login_fb, .login_li {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .lw_fb_btn {
+    background: #2a5297;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+    border: 1px solid #2a5297;
+    width: 270px;
+  }
+  .lw_fb_btn.glogin {
+    background: #dd4b39;
+    border: 1px solid #dd4b39;
+  }
+  
+  .lw_fb_btn {
+    background: #2a5297;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+    border: 1px solid #2a5297;
+    width: 270px;
+  }
+  .lw_fb_btn .fa {
+    padding-right: 18px;
+    margin-right: 10px;
+    border-right: 1px solid;
+  }
+  .lw_fb_btn:hover, .lw_fb_btn:active, .lw_fb_btn:focus {
+    background: #fff;
+    color: #2a5297;
+    border-color: #2a5297;
+  }
+  .lw_fb_btn.glogin:hover, .lw_fb_btn.glogin:active, .lw_fb_btn.glogin:focus {
+    background: #fff;
+    color: #dd4b39;
+    border-color: #dd4b39;
+  }
+  .or_text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2c2c2c;
+    margin: 10px;
+  }
+  .width {
+    width: 100%;
+  }
+  form#login_form {
+    max-width: 100%;
+    text-align: center;
+  }
+  form#login_form, form#reg_form2 {
+    margin: auto;
+  }
+  .inp_wrap {
+    position: relative;
+  }
+  .inp_wrap.wrap_rem .login_label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  .inp_wrap input[type=text], .inp_wrap input[type=password], .inp_wrap .login_label {
+    width: 470px;
+    text-align: left!important;
+    margin: auto;
+  }
+  .login_label {
+    font-size: 13px;
+    color: #424242;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  .inp_wrap input[type=text], .inp_wrap input[type=password] {
+    margin-bottom: 20px;
+  }
+  .inp_wrap.wrap_rem span {
+    font-size: 12px;
+    color: #7c7c7c;
+    text-align: right;
+  }
+  
+  .fliter_check {
+    position: relative;
+  }
+  .fliter_check input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+  }
+  .fliter_check input[type=checkbox]+label::before {
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #d5d5d5;
+    border-radius: 2px;
+    margin-right: 7px;
+    transition: all .2s ease-in-out;
+    position: relative;
+    top: 2px;
+  }
+  .fliter_check input[type=checkbox]:checked+label::before {
+    background: #2ac884;
+    border-color: #2ac884;
+  }
+  .fliter_check input[type=checkbox]+label {
+    cursor: pointer;
+    margin: 6px 0;
+  }
+  
+  .forgt_link a {
+    color: #7c7c7c;
+  }
+  .inp_wrap.wrap_lgn {
+    width: 100%;
+    margin: auto;
+    max-width: 470px;
+  }
+  .for_button.login_btn {
+    width: 100%;
+    margin-top: 40px;
+    padding: 13px;
+    background: -webkit-gradient(linear,left top,right top,from(#1bd472),to(#17a298));
+    border-radius: 30px;
+    transition: all .2s ease-in-out;
+    outline: none;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .for_form {
+    color: #525252;
+    padding: 13px 10px;
+    font-size: 15px;
+    border: solid 1px #eae9e9;
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    background-position: left 10px center;
+    outline: none;
+    margin-top: 3px;
+    height: 45px;
+    -webkit-apperance: none;
+  }
+  
+  
+  
+              /*******************************************Media Queries****************************************/
+  
+  
+@media screen and (min-width: 1220px){
+.main_bg {
+    width: 1215px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+}
+@media only screen and (max-width: 992px){
+.main_bg {
+    width: 90%;
+}
+}
+
+@media only screen and (max-width: 500px){
+.social_login {
+    text-align: center;
+    margin-top: 0;
+}
+}
+  
+@media screen and (max-width: 600px){
+.lw_fb_btn {
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 600px){
+.login_fb, .login_li {
+    display: block;
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+}
+}
+
+@media only screen and (max-width: 400px){
+.inp_wrap.wrap_rem * {
+    font-size: 11px!important;
+    letter-spacing: 0!important;
+    font-weight: 600!important;
+}
+}
+@media screen and (max-width: 600px){
+.inp_wrap.wrap_rem {
+    font-size: 12px!important;
+    margin-top: -18px;
+}
+}
+@media only screen and (max-width: 400px){
+.inp_wrap.wrap_rem {
+    margin-top: -16px;
+    margin-bottom: 10px;
+}
+}
+@media only screen and (max-width: 768px){
+.inp_wrap.wrap_rem {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+}
+@media only screen and (max-width: 992px){
+.inp_wrap {
+    max-width: 470px;
+}
+}
+@media screen and (max-width: 999px){
+.inp_wrap input, .inp_wrap .login_label {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 992px){
+.inp_wrap {
+    max-width: 470px;
+    margin: auto;
+}
+}
+@media only screen and (max-width: 992px){
+form#login_form {
+    text-align: left;
+}
+}
+@media only screen and (max-width: 768px){
+.inp_wrap input[type=text], .inp_wrap input[type=password] {
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+}
