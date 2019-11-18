@@ -1,0 +1,27 @@
+.articles-list {
+    padding: 50px 0 50px;
+      .article-title{
+        padding-left: 40px;
+        font-weight: 400;
+        font-size: 30px;
+      }
+    .list-item{
+      list-style: none;
+      padding: 10px 0;
+    //   background: lightblue;
+      .item-link{
+        color: #13d272;
+        font-size: 16px;
+        text-decoration: none;
+          &:focus{
+          color: #13d272;
+          text-decoration: none;
+        }
+      }
+      
+    }
+  }
+
+
+
+

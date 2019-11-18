@@ -1,5 +1,4 @@
 import React from "react";
-import Home from "../Pages/Home/Home";
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
 import Signup from "../../Components/Home/Signup/Signup";
@@ -9,6 +8,8 @@ import Footer from '../../Components/CommonComponents/Footer/Footer';
 import HowItWorks from "../Pages/How_it_works/How_it_works";
 import Pricing from "../../Components/Home/price/Pricing";
 import Privacy from "../../Components/Privacy/privacy";
+import Home from '../Pages/Home/Home';
+import HelpCenter from "../Pages/HelpCenter/HelpCenter";
 // import postJob from "../../Components/Home/PostJob/postJob";
 class App extends React.Component {
 
@@ -24,6 +25,8 @@ class App extends React.Component {
           <Route path="/howitworks" component={HowItWorks} />
           <Route path="/pricing" component={Pricing} />
           <Route path="/privacy" component={Privacy} />
+          <Route path="/helpcenter" component={HelpCenter} />
+
 
 
 

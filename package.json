@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/ishanShahzad/payforwork#readme",
   "dependencies": {
+    "@material-ui/core": "^4.6.1",
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
     "node-sass": "^4.13.0",

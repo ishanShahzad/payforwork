@@ -28,7 +28,7 @@ const Footer = () => {
                     <div className="col-lg-2 col-md-2 col-sm-3 lefty">
                         <h3>Resources</h3>
                         <ul>
-                            <li><Link to="/">Help center</Link></li>
+                            <li><Link to="/helpcenter">Help center</Link></li>
                             <li><Link to="/howitworks">How it works</Link></li>
                             <li><Link to="/">General terms</Link></li>
                         </ul>
