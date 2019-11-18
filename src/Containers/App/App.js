@@ -10,7 +10,7 @@ import Pricing from "../../Components/Home/price/Pricing";
 import Privacy from "../../Components/Privacy/privacy";
 import Home from '../Pages/Home/Home';
 import HelpCenter from "../Pages/HelpCenter/HelpCenter";
-// import postJob from "../../Components/Home/PostJob/postJob";
+import postJob from '../../Components/PostJob/postJob';
 class App extends React.Component {
 
   render() {
@@ -26,12 +26,7 @@ class App extends React.Component {
           <Route path="/pricing" component={Pricing} />
           <Route path="/privacy" component={Privacy} />
           <Route path="/helpcenter" component={HelpCenter} />
-
-
-
-
-
-          {/* <Route path="/postjob" component={postJob} /> */}
+          <Route path="/postjob" component={postJob} />
 
 
 
