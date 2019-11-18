@@ -30,7 +30,6 @@ export default class Herosection extends Component {
               <div className="hs2-dot2-img"></div>
             </div>
             <div className=" col-md-12 col-lg-6 container-fluid hs2_px">
-              <img src="" alt="" />
               <img
                 className="img-fluid"
                 src="https://www.payforworks.com/images/hs2_px.png"
