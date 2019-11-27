@@ -1,69 +1,105 @@
 const app = require("express").Router();
-const Signup = require("../models/Signup");
 const bcrypt = require("bcrypt");
 var jwt = require("jsonwebtoken");
+const passport = require("passport");
+
+//for verify token
+const validateLoginInput = require("../validations/login");
+const validateRegisterInput = require("../validations/register");
+const UserModel = require("../models/Signup");
+
+// signup schema
+// const Signup = require("../models/Signup");
 
 // for get user
 
 app.get("/get_users", (req, res) => {
-  Signup.find().then(data => res.json(data));
+  UserModel.find().then(data => res.json(data));
 });
 
 // for Signup
 
-app.post("/Signup", (req, res) => {
-  const {
-    emailaddress,
-    firstname,
-    lastname,
-    password,
-    confirmpassword,
-    location,
-    type
-  } = req.body;
-  const user = {
-    emailaddress,
-    firstname,
-    lastname,
-    password,
-    confirmpassword,
-    location,
-    type
-  };
-  bcrypt.hash(user.password, 10, function(err, hash) {
-    if (hash) {
-      user.password = hash;
-      user.confirmpassword = hash;
-      const newUser = new Signup(user);
-      newUser
-        .save()
-        .then(() => res.json("user SIGNUP Successfull"))
-        .catch(e => res.status(400).json(e));
+app.post("/register", function(req, res) {
+  const { errors, isValid } = validateRegisterInput(req.body);
+  if (!isValid) return res.status(400).json(errors);
+  UserModel.findOne({
+    email: req.body.email
+  }).then(user => {
+    if (user) {
+      return res.status(400).json({
+        email: "Email already exists"
+      });
     } else {
-      console.log(e);
+      const newUser = new UserModel({
+        name: req.body.name,
+        email: req.body.email,
+        password: req.body.password,
+        lastname: req.body.lastname,
+        location: req.body.location,
+        type: req.body.type
+      });
+      bcrypt.hash(newUser.password, 10, (err, hash) => {
+        if (err) console.error("there was an error", err);
+        else {
+          newUser.password = hash;
+          newUser.save().then(user => {
+            res.status(200).json({ success: true });
+          });
+        }
+      });
     }
   });
 });
 
 // for signin
 
-app.post("/signin", (req, res) => {
-  console.log(req.body);
-  const email = req.body.emailaddress;
+app.post("/login", (req, res) => {
+  const { errors, isValid } = validateLoginInput(req.body);
+  if (!isValid) {
+    return res.status(400).json(errors);
+  }
+  const email = req.body.email;
   const password = req.body.password;
-  Signup.findOne({ emailaddress: email }).then(userdata => {
-    if (userdata) {
-      bcrypt.compare(password, userdata.password).then(isMatch => {
-        if (isMatch) {
-          // for token
-          const token = jwt.sign({ _id: userdata.id }, "junaid");
-          res.header("auth-token", token).send(token);
-          // res.json(userdata);
-        } else {
-          res.status(404).send("Not Found");
-        }
-      });
+
+  UserModel.findOne({ email: email }).then(user => {
+    if (!user) {
+      errors.email = "User not found";
+      return res.status(404).json(errors);
     }
+    bcrypt.compare(password, user.password).then(isMatch => {
+      if (isMatch) {
+        const payload = {
+          id: user.id
+          // name:user.name,
+          // image:user.image
+        };
+        jwt.sign(
+          payload,
+          "secret",
+          {
+            expiresIn: 3600
+          },
+          (err, token) => {
+            if (err) console.error("Ther is some error in token", err);
+            else {
+              res.json({
+                success: true,
+                token: `Bearer ${token}`
+              });
+            }
+          }
+        );
+      } else {
+        errors.password = "incorrect password";
+        return res.status(400).json(errors);
+      }
+    });
+  });
+});
+
+app.get("/me", passport.authenticate("jwt", { session: false }), (req, res) => {
+  return res.json({
+    id: req.user.id
   });
 });
 
