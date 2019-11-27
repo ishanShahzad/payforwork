@@ -1,7 +1,7 @@
-* {
+/* * {
   font-family: "Nunito sans", sans-serif;
   /* background-color: white; */
-}
+/* } */
 .bg-img-section {
   background-image: url(/static/media/hwk2bg.66f852ee.png);
   height: 60vh;
