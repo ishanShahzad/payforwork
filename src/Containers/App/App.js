@@ -1,14 +1,12 @@
 import React from "react";
 import "./App.css";
-import "./bootstrap.min.css";
-import About from "../Pages/About/About";
-// import "./aos";
-// import "./aos.css";
+import LoginPage from "../../Components/LoginPage/LoginPage";
+
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <About />
+        <LoginPage />
       </div>
     );
   }
