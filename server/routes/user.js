@@ -9,7 +9,6 @@ router.get("/allDataOne", (req, res) => {
 router.post("/registration", (req, res) => {
   const { email, firstName, lastName, location, password, workType } = req.body;
   const user = { email, firstName, lastName, location, password, workType };
-
   bcrypt.hash(user.password, 4, function(err, hash) {
     if (hash) {
       user.password = hash;

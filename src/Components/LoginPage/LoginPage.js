@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./LoginPage.css";
 import Axios from "axios";
 class LogIn extends Component {
@@ -34,6 +35,7 @@ class LogIn extends Component {
             error: err
           });
         });
+      this.props.history.push("/client");
     });
   };
   render() {
@@ -47,9 +49,9 @@ class LogIn extends Component {
               <p className="text-center heading">Log in</p>
               <p className="text-center">
                 Don't have an account ?{" "}
-                <a href="/" className="sign-link">
+                <Link to="/Signup" className="sign-link">
                   SIGN UP
-                </a>
+                </Link>
               </p>
             </div>
             <div class="forgot">

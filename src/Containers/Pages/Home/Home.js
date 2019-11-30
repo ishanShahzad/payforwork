@@ -1,6 +1,6 @@
 import React from "react";
 import HowItWork from "../../../Components/Home/works/works.jsx";
-import NavBar from "../../../Components/Home/NavBar/NavBar";
+import NavBar from "../../../Components/Home/Nav/NavBar.jsx";
 
 const Home = () => {
   return (
