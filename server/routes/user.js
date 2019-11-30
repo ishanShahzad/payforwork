@@ -1,6 +1,7 @@
 const router = require("express").Router();
 const userData = require(".././models/user");
 const bcrypt = require("bcryptjs");
+const passport = require("passport");
 var jwt = require("jsonwebtoken");
 router.get("/allDataOne", (req, res) => {
   userData.find().then(data => res.json(data));
@@ -8,16 +9,15 @@ router.get("/allDataOne", (req, res) => {
 router.post("/registration", (req, res) => {
   const { email, firstName, lastName, location, password, workType } = req.body;
   const user = { email, firstName, lastName, location, password, workType };
-  bcrypt.genSalt(10, function(err, salt) {
-    bcrypt.hash(user.password, salt, function(err, hash) {
-      if (hash) {
-        user.password = hash;
-        const saveUser = new userData(user);
-        saveUser.save().then(() => res.send("user has signed up"));
-      } else {
-        res.json("hash error occured");
-      }
-    });
+
+  bcrypt.hash(user.password, 4, function(err, hash) {
+    if (hash) {
+      user.password = hash;
+      const saveUser = new userData(user);
+      saveUser.save().then(() => res.send("user has signed up"));
+    } else {
+      res.json("hash error occured");
+    }
   });
 });
 router.post("/login", (req, res) => {
@@ -34,7 +34,7 @@ router.post("/login", (req, res) => {
               if (err) {
                 res.json("token error");
               } else {
-                res.json(token);
+                res.json("Bearer " + token);
               }
             }
           );
@@ -47,4 +47,22 @@ router.post("/login", (req, res) => {
     }
   });
 });
+router.post(
+  "/me",
+  passport.authenticate("jwt", { session: false }),
+  (req, res) => {
+    if (req.user) {
+      res.json({
+        email: req.user.email,
+        id: req.user._id,
+        firstName: req.user.firstName,
+        lastName: req.user.lastName,
+        location: req.user.location,
+        type: req.user.workType
+      });
+    } else {
+      res.status(404).send("User not found");
+    }
+  }
+);
 module.exports = router;

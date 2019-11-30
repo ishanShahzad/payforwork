@@ -1,8 +1,45 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Signup.css";
+import Axios from "axios";
 export default class Signup extends Component {
+  state = {
+    firstName: "",
+    lastName: "",
+    email: "",
+    password: "",
+    confirmPassword: "",
+    location: "",
+    workType: "",
+    error: ""
+  };
+  handleChange = e => {
+    this.setState({
+      [e.target.name]: e.target.value
+    });
+  };
+
+  handleClick = e => {
+    e.preventDefault();
+    if (this.state.password == this.state.confirmPassword) {
+      const userDate = {
+        firstName: this.state.firstName,
+        lastName: this.state.lastName,
+        email: this.state.email,
+        password: this.state.password,
+        location: this.state.password,
+        workType: this.state.workType
+      };
+      Axios.post("http://localhost:5000/users/registration", userDate);
+      this.props.history.push("/login");
+    } else {
+      this.setState({
+        error: "password doesn't match"
+      });
+    }
+  };
   render() {
+    console.log(this.props);
     return (
       <div container-fluid>
         <div className="container-fluid  sign">
@@ -47,6 +84,8 @@ export default class Signup extends Component {
                   <label htmlFor="exampleInputEmail1">EMAIL ADDRESS</label>
                   <input
                     type="email"
+                    name="email"
+                    onChange={this.handleChange}
                     className="form-control i1 border"
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
@@ -56,6 +95,8 @@ export default class Signup extends Component {
                   <label htmlFor="exampleInputPassword1">FIRST NAME</label>
                   <input
                     type="text"
+                    name="firstName"
+                    onChange={this.handleChange}
                     className="form-control i1 border"
                     id="exampleInputPassword1"
                   />
@@ -64,6 +105,8 @@ export default class Signup extends Component {
                   <label htmlFor="exampleInputPassword1">LAST NAME</label>
                   <input
                     type="text"
+                    name="lastName"
+                    onChange={this.handleChange}
                     className="form-control i1 border"
                     id="exampleInputPassword1"
                   />
@@ -72,6 +115,8 @@ export default class Signup extends Component {
                   <label htmlFor="exampleInputPassword1">PASSWORD</label>
                   <input
                     type="password"
+                    name="password"
+                    onChange={this.handleChange}
                     className="form-control i1 border"
                     id="exampleInputPassword1"
                   />
@@ -83,14 +128,22 @@ export default class Signup extends Component {
                   </label>
                   <input
                     type="password"
+                    name="confirmPassword"
+                    onChange={this.handleChange}
                     className="form-control i1 border"
                     id="exampleInputPassword1"
+                    aria-describedby="ex"
                   />
+                  {this.state.password == this.state.confirmPassword ? null : (
+                    <small id="ex">{this.state.error}</small>
+                  )}
                 </div>
                 <div className="form-group">
                   <label htmlFor="exampleInputPassword1 "> LOCATION</label>
                   <input
                     type="text"
+                    name="location"
+                    onChange={this.handleChange}
                     className="form-control i1 border"
                     id="exampleInputPassword1"
                   />
@@ -98,6 +151,8 @@ export default class Signup extends Component {
                 <div className="form-group">
                   <label htmlFor="exampleFormControlSelect1">TYPE</label>
                   <select
+                    name="workType"
+                    onChange={this.handleChange}
                     className="form-control i1 border"
                     id="exampleFormControlSelect1"
                   >
@@ -107,7 +162,11 @@ export default class Signup extends Component {
                   </select>
                 </div>
 
-                <button type="submit" className="btn btn-info mb-3 bt1">
+                <button
+                  type="submit"
+                  onClick={this.handleClick}
+                  className="btn btn-info mb-3 bt1"
+                >
                   Submit
                 </button>
               </form>
