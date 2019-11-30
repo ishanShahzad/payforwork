@@ -43,10 +43,10 @@ export default class Signup extends Component {
     return (
       <div container-fluid>
         <div className="container-fluid  sign">
-          <h1 className="text-center heading">SIGN UP</h1>
+          <h1 className="text-center heading">Sign Up</h1>
           <div className="container-fluid text-center">
             <p>
-              Already Have An Acount? <Link to="/login">Log In</Link>
+              Already have an acount ? <Link to="/login">Log In</Link>
             </p>
           </div>
 

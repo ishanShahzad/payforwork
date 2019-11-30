@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "../Pages/Home/Home";
 import { Route } from "react-router-dom";
-import SignUp from "../../Components/Home/Signup/Signup";
+import SignUp from "../../Components/Signup/Signup";
 import LogIn from "../../Components/LoginPage/LoginPage";
 class App extends React.Component {
   render() {

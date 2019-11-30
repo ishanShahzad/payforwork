@@ -46,11 +46,11 @@ class LogIn extends Component {
           <div class="main_bg">
             <div class="top_bg"></div>
             <div className="App login-section">
-              <p className="text-center heading">Log in</p>
+              <p className="text-center heading">Log In</p>
               <p className="text-center">
                 Don't have an account ?{" "}
                 <Link to="/Signup" className="sign-link">
-                  SIGN UP
+                  Sign Up
                 </Link>
               </p>
             </div>
