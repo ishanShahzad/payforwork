@@ -1,0 +1,11 @@
+#root {
+  background-color: #eee;
+}
+.inner-content {
+  padding: 40px 60px;
+}
+@media (max-width: 576px) {
+  .inner-content {
+    padding: 40px 25px !important;
+  }
+}

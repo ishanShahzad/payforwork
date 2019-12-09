@@ -1,0 +1,23 @@
+.profileText {
+  font-size: 12px;
+}
+.color {
+  color: #13d272;
+}
+.btn-primary {
+  border-color: #13d272 !important;
+  background-color: #13d272 !important;
+}
+.btn-primary:hover {
+  border-color: #0aa357 !important;
+  background-color: #0aa357 !important;
+}
+.jumbotron .pad-1 {
+  padding: 10px;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .btn-primary {
+    font-size: 14px !important;
+  }
+}

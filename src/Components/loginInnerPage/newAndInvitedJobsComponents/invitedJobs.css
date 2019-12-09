@@ -1,0 +1,17 @@
+.main {
+  position: absolute !important;
+  top: 0;
+}
+.new2 {
+  color: red;
+}
+.caution {
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.caution2 {
+  color: black;
+}

@@ -1,0 +1,14 @@
+.inner-content .line {
+  height: 10px;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+  background-color: lightgray;
+}
+.inner-content .line .line-green {
+  position: absolute;
+  height: 10px;
+  width: 40%;
+  border-radius: 10px;
+  background-color: #13d272;
+}

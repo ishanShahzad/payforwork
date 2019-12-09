@@ -1,0 +1,22 @@
+.image {
+  height: 100px;
+  width: 100px;
+  border-style: dashed;
+  border-color: gray;
+  border-width: 1.5px;
+}
+.imgSizes {
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 1024px) {
+  .imgSizes {
+    width: 0%;
+    height: 0%;
+  }
+}
+@media (max-width: 576px) {
+  .imgSizes {
+    height: 90%;
+  }
+}

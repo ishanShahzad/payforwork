@@ -1,0 +1,26 @@
+.inner-content .box {
+  height: 150px;
+  width: 150px;
+  background-color: lightgray;
+}
+.inner-content .ctm-btn {
+  border-width: 1.5px;
+  height: 30px;
+  padding-top: 4px;
+  font-size: 14px !important;
+}
+.inner-content .ctm-btn:hover {
+  color: white !important;
+}
+.inner-content .pound {
+  font-size: 30px;
+}
+
+.inner-content .copy {
+  height: 20px;
+  /* position: absolute; */
+  color: white;
+  font-size: 14px;
+  width: 20px;
+  position: absolute;
+}

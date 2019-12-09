@@ -7,13 +7,13 @@ class NavBar extends Component {
     return (
       <React.Fragment>
         <nav class="navbar navbar-expand-md navbar-light bg-white">
-          <a class="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img
               src="https://www.payforworks.com/images/logo_dark.png"
               alt="LOGO IMG"
               className="logo ml-0 ml-lg-5"
             />
-          </a>
+          </Link>
           <button
             class="navbar-toggler"
             type="button"

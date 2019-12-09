@@ -1,0 +1,49 @@
+.graph {
+  position: relative;
+  height: 270px;
+  width: 100%;
+  /* border: 2px solid; */
+}
+.graph img {
+  position: absolute;
+  height: 90%;
+  bottom: 0;
+}
+.graph .graphNav {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.graph .earningImg {
+  height: 220px;
+  top: 25px;
+}
+.graph .weeks {
+  position: absolute;
+  bottom: 10%;
+  /* font-size: 10px; */
+}
+.graph .week {
+  /* border: 2px solid; */
+  width: 70px;
+}
+@media (min-width: 992px) {
+  .graph {
+    height: 100px !important;
+  }
+}
+@media (min-width: 576px) {
+  .graph {
+    height: 300px !important;
+  }
+}
+@media (max-width: 576px) {
+  .graph {
+    height: 200px;
+  }
+  .graph .earningImg {
+    height: 127px !important;
+  }
+  .graph .weeks {
+    bottom: 0px;
+  }
+}

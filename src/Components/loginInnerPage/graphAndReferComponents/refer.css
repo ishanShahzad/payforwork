@@ -1,0 +1,11 @@
+.refer {
+  background-color: slateblue;
+  height: 100%;
+  width: 100%;
+}
+.refer .referImg {
+  height: 100px;
+  /* border: 2px solid; */
+  width: 130px;
+  margin-bottom: 20px;
+}

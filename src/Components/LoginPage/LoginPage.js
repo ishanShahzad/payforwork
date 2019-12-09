@@ -35,7 +35,11 @@ class LogIn extends Component {
             error: err
           });
         });
-      this.props.history.push("/client");
+      if (res.data === "password doesn't match") {
+        alert(res.data);
+      } else {
+        this.props.history.push("/loginInnerPage");
+      }
     });
   };
   render() {
