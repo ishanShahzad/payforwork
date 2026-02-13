@@ -28,7 +28,7 @@
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "5.0.1"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -48,6 +48,6 @@
   "devDependencies": {
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
-    "jest": "^24.9.0"
+    "jest": "^30.2.0"
   }
 }
